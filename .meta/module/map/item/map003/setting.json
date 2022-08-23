@@ -1,0 +1,3526 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "asset": "asset/Texture/SkyBox/day01_font.png"
+        },
+        "bottom": {
+          "asset": "asset/Texture/SkyBox/day01_down.png"
+        },
+        "front": {
+          "asset": "asset/Texture/SkyBox/day01_back.png"
+        },
+        "left": {
+          "asset": "asset/Texture/SkyBox/day01_right.png"
+        },
+        "right": {
+          "asset": "asset/Texture/SkyBox/day01_left.png"
+        },
+        "top": {
+          "asset": "asset/Texture/SkyBox/day01_up.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8671164692650180609"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8681996837319409665",
+        "ID": 3,
+        "lightBrightness": 0.8,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight",
+        "skyColor": {
+          "b": 198,
+          "g": 174,
+          "r": 204
+        },
+        "skyLineColor": {
+          "b": 194,
+          "g": 194,
+          "r": 167
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8690030758665486337",
+        "ID": 4,
+        "lightColor": {
+          "b": 173,
+          "g": 132,
+          "r": 103
+        },
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "x": 8.2584075927734,
+          "y": 44.140880584717,
+          "z": -7.3564042395446e-06
+        },
+        "rotation": {
+          "x": 9.4756132966722e-06,
+          "y": -150.99998474121,
+          "z": -35.999984741211
+        },
+        "shadows": {
+          "shadowsType": "hard"
+        },
+        "skyColor": {
+          "b": 143,
+          "g": 133
+        },
+        "skyLineColor": {
+          "g": 62,
+          "r": 62
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "0a3a9a65-5e2e-4022-a031-5e839ae1d653",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/red/215cg_arrow mark_yellow_3d .effect"
+            },
+            "id": "8677713664405635073",
+            "position": {
+              "x": 10.05,
+              "y": 21.8,
+              "z": 19.1999
+            },
+            "scale": {
+              "x": 2.746,
+              "y": 3,
+              "z": 0.999997
+            },
+            "size": {
+              "x": 15.0000267028809,
+              "y": 3,
+              "z": 0.999997019767761
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/red/215cg_arrow mark_yellow_3d .effect"
+            },
+            "id": "8677718151826161665",
+            "position": {
+              "x": 10.05,
+              "y": 21.8,
+              "z": -19.1999
+            },
+            "scale": {
+              "x": 2.746,
+              "y": 3,
+              "z": 0.999999
+            },
+            "size": {
+              "x": 15.0000267028809,
+              "y": 3,
+              "z": 0.999998986721039
+            }
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8671166762537500673",
+        "material": {
+          "color": {
+            "b": 127,
+            "g": 0,
+            "r": 0
+          },
+          "discardAlpha": 1
+        },
+        "name": "floor",
+        "position": {
+          "x": 12.75,
+          "y": 20
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 4.49992,
+          "y": 0.999995,
+          "z": 39.9997
+        },
+        "size": {
+          "x": 4.49992,
+          "y": 0.999995,
+          "z": 39.9997
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "47df92c7-3aa7-46e4-b4d1-4867e7fc79ee",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8671184621556613121",
+        "material": {
+          "alpha": 0,
+          "discardAlpha": 1
+        },
+        "name": "MapAirWall",
+        "position": {
+          "x": 15.50003528595,
+          "y": 22
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 0.999996,
+          "y": 5,
+          "z": 41.9999
+        },
+        "size": {
+          "x": 0.999996,
+          "y": 5,
+          "z": 41.9999
+        },
+        "useAnchor": true,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "35bfabb6-6996-4e5e-a9ac-c89c03d3229e",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8671185325431275521",
+        "material": {
+          "alpha": 0,
+          "discardAlpha": 1
+        },
+        "name": "MapAirWall",
+        "position": {
+          "x": -15.499965667725,
+          "y": 24.5
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 0.999996,
+          "y": 10,
+          "z": 41.9999
+        },
+        "size": {
+          "x": 0.999996,
+          "y": 10,
+          "z": 41.9999
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_PartOperation",
+            "batchType": "Dynamic",
+            "btsKey": "aa5c3869-a986-40e0-8a2c-008d540bd20c",
+            "componentList": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8671210492568387585",
+                "restitution": 0.3
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8671210492571516929",
+                "position": {
+                  "x": -4.29153e-06,
+                  "y": -2.99998,
+                  "z": -0.4375
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 0.999991,
+                  "y": 4.99999,
+                  "z": 0.125
+                },
+                "size": {
+                  "x": 0.999991,
+                  "y": 4.99999,
+                  "z": 0.125
+                }
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8671210492574056449",
+                "position": {
+                  "x": -4.29153e-06,
+                  "y": -2.99998,
+                  "z": -0.1875
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 0.999991,
+                  "y": 4.99999,
+                  "z": 0.125
+                },
+                "size": {
+                  "x": 0.999991,
+                  "y": 4.99999,
+                  "z": 0.125
+                }
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8671210492576530433",
+                "position": {
+                  "x": -4.29153e-06,
+                  "y": -2.99998,
+                  "z": 0.3125
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 0.999991,
+                  "y": 4.99999,
+                  "z": 0.125
+                },
+                "size": {
+                  "x": 0.999991,
+                  "y": 4.99999,
+                  "z": 0.125
+                }
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8671210492579135489",
+                "position": {
+                  "x": -4.29153e-06,
+                  "y": -2.99998,
+                  "z": 0.0625
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 0.999991,
+                  "y": 4.99999,
+                  "z": 0.125
+                },
+                "size": {
+                  "x": 0.999991,
+                  "y": 4.99999,
+                  "z": 0.125
+                }
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8671210492764766209",
+            "material": {
+              "color": {
+                "g": 174,
+                "r": 174
+              },
+              "discardAlpha": 1
+            },
+            "mergeShapesDataKey": "8671210492581314561",
+            "name": "Obstacle_1",
+            "position": {
+              "x": 55,
+              "y": 500,
+              "z": -7
+            },
+            "restitution": 0.3,
+            "scale": {
+              "z": 40
+            },
+            "size": {
+              "z": 40
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_PartOperation",
+            "batchType": "Dynamic",
+            "btsKey": "5c4356b0-8e12-438d-9f62-e1a884a12622",
+            "componentList": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8671210064261758977",
+                "restitution": 0.3
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8671210064265101313",
+                "position": {
+                  "z": 4.00008
+                },
+                "restitution": 0.3
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8671210064267870209",
+                "position": {
+                  "z": 2.00004
+                },
+                "restitution": 0.3
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8671210064270704641",
+                "position": {
+                  "z": 6.00012
+                },
+                "restitution": 0.3
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8671210064273408001",
+                "position": {
+                  "y": 0.600004,
+                  "z": 3.50007
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "y": 0.200001,
+                  "z": 8.00016
+                },
+                "size": {
+                  "y": 0.200001,
+                  "z": 8.00016
+                }
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8671210064463560705",
+            "material": {
+              "color": {
+                "b": 127,
+                "r": 174
+              },
+              "discardAlpha": 1
+            },
+            "mergeShapesDataKey": "8671210064275849217",
+            "name": "Obstacle_2",
+            "position": {
+              "x": 50,
+              "y": 500,
+              "z": -8
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 0.999997,
+              "y": 4.99998,
+              "z": 4.9999
+            },
+            "size": {
+              "x": 0.999997,
+              "y": 4.99998,
+              "z": 4.9999
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_PartOperation",
+            "batchType": "Dynamic",
+            "btsKey": "089adb37-e3a1-4c79-9e3d-4d6f00b08b64",
+            "componentList": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8699929535173787649",
+                "restitution": 0.3
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8699929535177572353",
+                "position": {
+                  "z": 1.25008
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "z": 0.166617
+                },
+                "size": {
+                  "z": 0.166617
+                }
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8699929535180423169",
+                "position": {
+                  "z": 1.75011
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "z": 0.166617
+                },
+                "size": {
+                  "z": 0.166617
+                }
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8699929535183306753",
+                "position": {
+                  "z": 2.25014
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "z": 0.166617
+                },
+                "size": {
+                  "z": 0.166617
+                }
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8699929535186124801",
+                "position": {
+                  "z": 2.75017
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "z": 0.166617
+                },
+                "size": {
+                  "z": 0.166617
+                }
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8699929535188975617",
+                "position": {
+                  "z": 4.16692
+                },
+                "restitution": 0.3
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8699929535191760897",
+                "position": {
+                  "x": -1.14441e-05,
+                  "y": 0.599991,
+                  "z": 2.01162
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 1.00001,
+                  "y": 0.200002,
+                  "z": 6.66708
+                },
+                "size": {
+                  "x": 1.00001,
+                  "y": 0.200002,
+                  "z": 6.66708
+                }
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8699929535575752705",
+            "material": {
+              "color": {
+                "g": 174,
+                "r": 0
+              }
+            },
+            "mergeShapesDataKey": "8699929535194202113",
+            "name": "Obstacle_3",
+            "position": {
+              "x": 42.499980926514,
+              "y": 499.99987792969,
+              "z": -9.000039100647
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 0.999992,
+              "y": 4.99996,
+              "z": 5.99964
+            },
+            "size": {
+              "x": 0.999992,
+              "y": 4.99996,
+              "z": 5.99964
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_PartOperation",
+            "batchType": "Dynamic",
+            "btsKey": "a2346135-e7cc-4994-8408-1ffd24df0d74",
+            "componentList": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8671214826292690945",
+                "restitution": 0.3
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8671214826296049665",
+                "position": {
+                  "y": -0.4,
+                  "z": -1.2
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "y": 0.2,
+                  "z": 1.4
+                },
+                "size": {
+                  "y": 0.2,
+                  "z": 1.4
+                }
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8671214826298785793",
+                "position": {
+                  "z": -2.4
+                },
+                "restitution": 0.3
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8671214826301734913",
+                "position": {
+                  "y": -0.4,
+                  "z": -3.5
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "y": 0.2,
+                  "z": 1.2
+                },
+                "size": {
+                  "y": 0.2,
+                  "z": 1.2
+                }
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8671214826304815105",
+                "position": {
+                  "z": -4.6
+                },
+                "restitution": 0.3
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8671214826307518465",
+                "position": {
+                  "y": -0.4,
+                  "z": -5.8
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "y": 0.2,
+                  "z": 1.4
+                },
+                "size": {
+                  "y": 0.2,
+                  "z": 1.4
+                }
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8671214826310189057",
+                "position": {
+                  "z": -7
+                },
+                "restitution": 0.3
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8671214826510925825",
+            "material": {
+              "color": {
+                "b": 72,
+                "g": 133
+              },
+              "discardAlpha": 1
+            },
+            "mergeShapesDataKey": "8671214826312499201",
+            "name": "Obstacle_4",
+            "position": {
+              "x": 53,
+              "y": 500,
+              "z": -8
+            },
+            "restitution": 0.3,
+            "scale": {
+              "y": 5,
+              "z": 5
+            },
+            "size": {
+              "y": 5,
+              "z": 5
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_PartOperation",
+            "batchType": "Dynamic",
+            "btsKey": "63d86bb3-a925-4416-aec2-3e33471564eb",
+            "componentList": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8683280812158009345",
+                "restitution": 0.3
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8683280812161368065",
+                "position": {
+                  "x": -7.62939e-06,
+                  "z": 1.83911
+                },
+                "restitution": 0.3
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8683280812164136961",
+                "position": {
+                  "x": -1.14441e-05,
+                  "y": 0.599991,
+                  "z": 1.00577
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 1.00001,
+                  "y": 0.2,
+                  "z": 3.33339
+                },
+                "size": {
+                  "x": 1.00001,
+                  "y": 0.2,
+                  "z": 3.33339
+                }
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8683280812313231361",
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 85
+              }
+            },
+            "mergeShapesDataKey": "8683280812166512641",
+            "name": "Obstacle_5",
+            "position": {
+              "x": 47.499988555908,
+              "y": 499.99993896484,
+              "z": -9.0000410079956
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 0.999995,
+              "y": 4.99999,
+              "z": 11.9998
+            },
+            "size": {
+              "x": 0.999995,
+              "y": 4.99999,
+              "z": 11.9998
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false
+          }
+        ],
+        "id": "8671189248003735553",
+        "name": "Obstacle"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "773e2f4a-dc59-41da-af79-bedbda43cac1",
+        "cameraCollideEnable": false,
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8671211651336110081",
+        "material": {
+          "alpha": 0,
+          "color": {
+            "b": 127
+          },
+          "discardAlpha": 1
+        },
+        "name": "Spotlight",
+        "position": {
+          "x": 9,
+          "y": 22.5
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 3,
+          "y": 4,
+          "z": 40
+        },
+        "size": {
+          "x": 3,
+          "y": 4,
+          "z": 40
+        },
+        "useAnchor": true,
+        "useCollide": false,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "819d5a3b-1d57-4f35-96cb-51c773554bb3",
+        "cameraCollideEnable": false,
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/Texture/floor_15.png"
+            },
+            "id": "8677551355586560001"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677550756634574849",
+        "material": {
+          "color": {
+            "b": 0
+          },
+          "discardAlpha": 1
+        },
+        "name": "fence",
+        "position": {
+          "y": 22.499998092651,
+          "z": 21.900104522705
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 90
+        },
+        "scale": {
+          "x": 12,
+          "y": 0.2,
+          "z": 12
+        },
+        "shape": "3",
+        "size": {
+          "x": 12,
+          "y": 0.2,
+          "z": 12
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "b724ef65-a788-4a38-b317-8dd0779489f5",
+        "cameraCollideEnable": false,
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_02_blue_3d.effect"
+            },
+            "id": "8677554850168406017",
+            "position": {
+              "x": 1.9073486328125e-06,
+              "y": 29.800001144409,
+              "z": 21.900100708008
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_03_blue_3d.effect"
+            },
+            "id": "8677556419931783169",
+            "position": {
+              "x": -2.8099975585938,
+              "y": 29.320001602173,
+              "z": 21.900100708008
+            },
+            "rotation": {
+              "z": 22.5
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_04_blue_3d.effect"
+            },
+            "id": "8677559686550126593",
+            "position": {
+              "x": -5.2199974060059,
+              "y": 27.660001754761,
+              "z": 21.900100708008
+            },
+            "rotation": {
+              "z": 45
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_05_blue_3d.effect"
+            },
+            "id": "8677564344981749761",
+            "position": {
+              "x": -6.8199973106384,
+              "y": 25.320001602173,
+              "z": 21.900100708008
+            },
+            "rotation": {
+              "z": 67
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_06_blue_3d.effect"
+            },
+            "id": "8677567030921822209",
+            "position": {
+              "x": -7.2999973297119,
+              "y": 22.500001907349,
+              "z": 21.900100708008
+            },
+            "rotation": {
+              "z": 90
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_02_blue_3d.effect"
+            },
+            "id": "8677568382024187905",
+            "position": {
+              "x": -6.8199973106384,
+              "y": 19.680002212524,
+              "z": 21.900100708008
+            },
+            "rotation": {
+              "z": 112.5
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_03_blue_3d.effect"
+            },
+            "id": "8677570590038704129",
+            "position": {
+              "x": -5.2199974060059,
+              "y": 17.340002059937,
+              "z": 21.900100708008
+            },
+            "rotation": {
+              "z": 135
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_04_blue_3d.effect"
+            },
+            "id": "8677572586586144769",
+            "position": {
+              "x": -2.8099975585938,
+              "y": 15.680003166199,
+              "z": 21.900100708008
+            },
+            "rotation": {
+              "z": 157
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_05_blue_3d.effect"
+            },
+            "id": "8677576161631043585",
+            "position": {
+              "x": 1.9073486328125e-06,
+              "y": 15.200002670288,
+              "z": 21.900100708008
+            },
+            "rotation": {
+              "z": 179.99996948242
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_06_blue_3d.effect"
+            },
+            "id": "8677576969598304257",
+            "position": {
+              "x": 2.8100023269653,
+              "y": 15.680003166199,
+              "z": 21.900100708008
+            },
+            "rotation": {
+              "z": -157.5
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_02_blue_3d.effect"
+            },
+            "id": "8677578667863490561",
+            "position": {
+              "x": 5.2200021743774,
+              "y": 17.340002059937,
+              "z": 21.900100708008
+            },
+            "rotation": {
+              "z": -135
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_03_blue_3d.effect"
+            },
+            "id": "8677579991038672897",
+            "position": {
+              "x": 6.8200016021729,
+              "y": 19.680002212524,
+              "z": 21.900100708008
+            },
+            "rotation": {
+              "z": -113
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_04_blue_3d.effect"
+            },
+            "id": "8677581173064974337",
+            "position": {
+              "x": 7.3000001907349,
+              "y": 22.500001907349,
+              "z": 21.900100708008
+            },
+            "rotation": {
+              "z": -90
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_05_blue_3d.effect"
+            },
+            "id": "8677583723732303873",
+            "position": {
+              "x": 6.8200016021729,
+              "y": 25.310001373291,
+              "z": 21.900100708008
+            },
+            "rotation": {
+              "z": -67.5
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_06_blue_3d.effect"
+            },
+            "id": "8677585679871950849",
+            "position": {
+              "x": 5.1600017547607,
+              "y": 27.720001220703,
+              "z": 21.900100708008
+            },
+            "rotation": {
+              "z": -45
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_04_blue_3d.effect"
+            },
+            "id": "8677586791003930625",
+            "position": {
+              "x": 2.8100023269653,
+              "y": 29.320001602173,
+              "z": 21.900100708008
+            },
+            "rotation": {
+              "z": -23
+            },
+            "scale": {
+              "x": 6,
+              "y": 3,
+              "z": 0.999999
+            },
+            "size": {
+              "x": 6,
+              "y": 3,
+              "z": 0.999999
+            }
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677553789875781633",
+        "material": {
+          "alpha": 0,
+          "color": {
+            "b": 0
+          },
+          "discardAlpha": 1
+        },
+        "name": "fence",
+        "position": {
+          "y": 22.499998092651,
+          "z": 21.900104522705
+        },
+        "restitution": 0.3,
+        "useAnchor": true,
+        "useCollide": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "1d7fe6cb-3d6b-455e-8122-09afa8404d77",
+        "cameraCollideEnable": false,
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/floor_16.png"
+            },
+            "id": "8677600587433754625"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677591653525323777",
+        "material": {
+          "color": {
+            "r": 85
+          },
+          "discardAlpha": 1
+        },
+        "name": "fence",
+        "position": {
+          "y": 22.499998092651,
+          "z": 21.600109100342
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -90
+        },
+        "scale": {
+          "x": 4.8,
+          "y": 0.199999,
+          "z": 4.8
+        },
+        "shape": "3",
+        "size": {
+          "x": 4.8,
+          "y": 0.199999,
+          "z": 4.8
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "batchType": "Dynamic",
+        "btsKey": "51e36cd3-9db3-47e3-99a9-a933ed6278ea",
+        "componentList": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8677592025102811137",
+            "material": {
+              "color": {
+                "b": 171,
+                "g": 37,
+                "r": 12
+              }
+            },
+            "name": "fence",
+            "position": {
+              "x": 9,
+              "y": 22.5,
+              "z": 21.3001
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -90
+            },
+            "scale": {
+              "x": 5.79999,
+              "y": 0.999999,
+              "z": 5.79999
+            },
+            "shape": "4",
+            "size": {
+              "x": 5.79999,
+              "y": 0.999999,
+              "z": 5.79999
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "booleanOperation": 2,
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8677592025106153473",
+            "material": {
+              "color": {
+                "b": 171,
+                "g": 37,
+                "r": 12
+              }
+            },
+            "name": "fence",
+            "position": {
+              "x": 9,
+              "y": 22.5,
+              "z": 21.2001
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -90
+            },
+            "scale": {
+              "x": 5.79999,
+              "y": 0.999999,
+              "z": 5.79999
+            },
+            "shape": "3",
+            "size": {
+              "x": 5.79999,
+              "y": 0.999999,
+              "z": 5.79999
+            },
+            "useAnchor": true
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677592025174802433",
+        "material": {
+          "color": {
+            "b": 174,
+            "g": 41,
+            "r": 20
+          },
+          "discardAlpha": 1
+        },
+        "mergeShapesDataKey": "8677592025108774913",
+        "name": "fence",
+        "position": {
+          "y": 22.499996185303,
+          "z": 21.750106811523
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -90
+        },
+        "scale": {
+          "x": 5.79999,
+          "y": 0.999999,
+          "z": 5.79999
+        },
+        "size": {
+          "x": 5.79999,
+          "y": 0.999999,
+          "z": 5.79999
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "booleanOperation": 2,
+        "btsKey": "7e42f27c-a7d9-42c4-acc5-51137a79aba7",
+        "cameraCollideEnable": false,
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677655391488671745",
+        "isVisibleInEditor": false,
+        "material": {
+          "alpha": 0.3,
+          "color": {
+            "b": 174,
+            "g": 41,
+            "r": 20
+          },
+          "discardAlpha": 1
+        },
+        "name": "fence",
+        "position": {
+          "y": 22.499994277954,
+          "z": 20.100099563599
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 7.5,
+          "y": 90,
+          "z": 90
+        },
+        "scale": {
+          "x": 30,
+          "y": 0.2,
+          "z": 30
+        },
+        "shape": "3",
+        "size": {
+          "x": 30,
+          "y": 0.2,
+          "z": 30
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "batchType": "Dynamic",
+        "btsKey": "876e216e-91a5-4597-be12-a487036caebf",
+        "componentList": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8677636449363361793",
+            "name": "fence",
+            "position": {
+              "y": 22.5,
+              "z": 21.0001
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 90
+            },
+            "scale": {
+              "x": 31,
+              "y": 1.99999,
+              "z": 31
+            },
+            "shape": "3",
+            "size": {
+              "x": 31,
+              "y": 1.99999,
+              "z": 31
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "booleanOperation": 2,
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8677636449366736897",
+            "name": "fence",
+            "position": {
+              "y": 22.5,
+              "z": 22.0001
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 90
+            },
+            "scale": {
+              "x": 30,
+              "y": 5,
+              "z": 30
+            },
+            "shape": "3",
+            "size": {
+              "x": 30,
+              "y": 5,
+              "z": 30
+            },
+            "useAnchor": true
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677643417014009857",
+        "material": {
+          "color": {
+            "b": 117,
+            "g": 117,
+            "r": 117
+          },
+          "discardAlpha": 1
+        },
+        "mergeShapesDataKey": "8677636449369374721",
+        "name": "fence",
+        "position": {
+          "y": 22.499998092651,
+          "z": -21
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -5.4641863243887e-05,
+          "y": 90,
+          "z": 89.99991607666
+        },
+        "scale": {
+          "x": 31,
+          "y": 1.99999,
+          "z": 31
+        },
+        "size": {
+          "x": 31,
+          "y": 1.99999,
+          "z": 31
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "batchType": "Dynamic",
+        "btsKey": "a049d81f-91f9-49f4-8d24-d9592761c248",
+        "componentList": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8677636449363361793",
+            "name": "fence",
+            "position": {
+              "y": 22.5,
+              "z": 21.0001
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 90
+            },
+            "scale": {
+              "x": 31,
+              "y": 1.99999,
+              "z": 31
+            },
+            "shape": "3",
+            "size": {
+              "x": 31,
+              "y": 1.99999,
+              "z": 31
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "booleanOperation": 2,
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8677636449366736897",
+            "name": "fence",
+            "position": {
+              "y": 22.5,
+              "z": 22.0001
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 90
+            },
+            "scale": {
+              "x": 30,
+              "y": 5,
+              "z": 30
+            },
+            "shape": "3",
+            "size": {
+              "x": 30,
+              "y": 5,
+              "z": 30
+            },
+            "useAnchor": true
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677636449431683073",
+        "material": {
+          "color": {
+            "b": 117,
+            "g": 117,
+            "r": 117
+          },
+          "discardAlpha": 1
+        },
+        "mergeShapesDataKey": "8677636449369374721",
+        "name": "fence",
+        "position": {
+          "y": 22.499998092651,
+          "z": 21.000118255615
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 7.5000748634338,
+          "y": 90.000076293945,
+          "z": 89.999900817871
+        },
+        "scale": {
+          "x": 31,
+          "y": 1.99999,
+          "z": 31
+        },
+        "size": {
+          "x": 31,
+          "y": 1.99999,
+          "z": 31
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "booleanOperation": 2,
+        "btsKey": "367abbfe-13dd-4535-94ab-a662bacc433b",
+        "cameraCollideEnable": false,
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677658024660074497",
+        "material": {
+          "alpha": 0.3,
+          "color": {
+            "b": 174,
+            "g": 41,
+            "r": 20
+          },
+          "discardAlpha": 1
+        },
+        "name": "fence",
+        "position": {
+          "y": 22.499994277954,
+          "z": -20.1
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 7.5,
+          "y": 90,
+          "z": 90
+        },
+        "scale": {
+          "x": 30,
+          "y": 0.2,
+          "z": 30
+        },
+        "shape": "3",
+        "size": {
+          "x": 30,
+          "y": 0.2,
+          "z": 30
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "batchType": "Dynamic",
+        "btsKey": "80bcffdb-0eb5-4a05-8127-4855ff4463c2",
+        "componentList": [
+          {
+            "__OBJ_TYPE": "Instance_PartOperation",
+            "batchType": "Dynamic",
+            "collisionUniqueKey": "8677661306270121985",
+            "componentList": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "cameraCollideEnable": false,
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8677664819674939393",
+                "name": "fence",
+                "position": {
+                  "y": 22.5
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "x": 90
+                },
+                "scale": {
+                  "x": 60,
+                  "y": 44,
+                  "z": 60
+                },
+                "shape": "3",
+                "size": {
+                  "x": 60,
+                  "y": 44,
+                  "z": 60
+                },
+                "useAnchor": true
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "booleanOperation": 2,
+                "cameraCollideEnable": false,
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8677664819677511681",
+                "name": "fence",
+                "position": {
+                  "y": 22.5
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "x": 90
+                },
+                "scale": {
+                  "x": 56,
+                  "y": 48,
+                  "z": 56
+                },
+                "shape": "3",
+                "size": {
+                  "x": 56,
+                  "y": 48,
+                  "z": 56
+                },
+                "useAnchor": true
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8677664819674185729",
+            "mergeShapesDataKey": "8677661306209550337",
+            "position": {
+              "y": 22.5
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 90
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "booleanOperation": 2,
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8677664819682508801",
+            "name": "fence",
+            "position": {
+              "y": 57.5,
+              "z": -1.2517e-05
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 90
+            },
+            "scale": {
+              "x": 65,
+              "y": 48,
+              "z": 56
+            },
+            "size": {
+              "x": 65,
+              "y": 48,
+              "z": 56
+            },
+            "useAnchor": true
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677664819754319873",
+        "material": {
+          "alpha": 0.8,
+          "color": {
+            "b": 127,
+            "g": 0,
+            "r": 0
+          },
+          "discardAlpha": 1
+        },
+        "mergeShapesDataKey": "8677664819686211585",
+        "name": "fence",
+        "position": {
+          "y": 10.999997138977,
+          "z": -1.0053616961159e-06
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 90
+        },
+        "scale": {
+          "x": 60,
+          "y": 44,
+          "z": 60
+        },
+        "size": {
+          "x": 60,
+          "y": 44,
+          "z": 60
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "batchType": "Dynamic",
+        "btsKey": "31f6b94a-a288-4a7f-b55f-cf2e2146fe25",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalImageType": "2",
+            "decalOffset": {
+              "x": -0.1
+            },
+            "decalTexture": {
+              "asset": "asset/Texture/floor_02.png"
+            },
+            "decalTiling": {
+              "x": 6,
+              "y": 6
+            },
+            "id": "8677694509272317953"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalImageType": "2",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/floor_02.png"
+            },
+            "decalTiling": {
+              "x": 6,
+              "y": 6
+            },
+            "id": "8677695382737223681"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalImageType": "2",
+            "decalOffset": {
+              "x": 0.1
+            },
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/floor_02.png"
+            },
+            "decalTiling": {
+              "x": 6,
+              "y": 6
+            },
+            "id": "8677696217910296577"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalImageType": "2",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/floor_02.png"
+            },
+            "decalTiling": {
+              "x": 6,
+              "y": 6
+            },
+            "id": "8677696738810101761"
+          }
+        ],
+        "componentList": [
+          {
+            "__OBJ_TYPE": "Instance_PartOperation",
+            "batchType": "Dynamic",
+            "collisionUniqueKey": "8677664430006829057",
+            "componentList": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "cameraCollideEnable": false,
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8677666074062077953",
+                "name": "fence",
+                "position": {
+                  "y": 22.5
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "x": 90
+                },
+                "scale": {
+                  "x": 56,
+                  "y": 44,
+                  "z": 56
+                },
+                "shape": "3",
+                "size": {
+                  "x": 56,
+                  "y": 44,
+                  "z": 56
+                },
+                "useAnchor": true
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "booleanOperation": 2,
+                "cameraCollideEnable": false,
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8677666074064977921",
+                "name": "fence",
+                "position": {
+                  "y": 22.5
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "x": 90
+                },
+                "scale": {
+                  "x": 52,
+                  "y": 48,
+                  "z": 52
+                },
+                "shape": "3",
+                "size": {
+                  "x": 52,
+                  "y": 48,
+                  "z": 52
+                },
+                "useAnchor": true
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8677666074061029377",
+            "mergeShapesDataKey": "8677664429939195905",
+            "position": {
+              "y": 22.5
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 90
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "booleanOperation": 2,
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8677666074070679553",
+            "name": "fence",
+            "position": {
+              "y": 20,
+              "z": -3.57628e-06
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 90
+            },
+            "scale": {
+              "x": 65,
+              "y": 30,
+              "z": 68
+            },
+            "size": {
+              "x": 65,
+              "y": 30,
+              "z": 68
+            },
+            "useAnchor": true
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677666074278739969",
+        "material": {
+          "color": {
+            "b": 72,
+            "g": 133
+          },
+          "discardAlpha": 1
+        },
+        "mergeShapesDataKey": "8677666074075168769",
+        "name": "fence",
+        "position": {
+          "y": 22.499992370605
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 90
+        },
+        "scale": {
+          "x": 56,
+          "y": 44,
+          "z": 56
+        },
+        "size": {
+          "x": 56,
+          "y": 44,
+          "z": 56
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "2b3a7478-7055-403b-aea0-d1e072a75535",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/txxd209_digital fall_blue_01_3d/txxd209_digital fall_blue_01_3d.effect"
+            },
+            "id": "8677852512258064385",
+            "position": {
+              "x": 29.92,
+              "y": 4.26028
+            },
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 1.13162,
+              "y": 1.23688,
+              "z": 0.170538
+            },
+            "size": {
+              "x": 40.0001411437988,
+              "y": 219.999145507812,
+              "z": 6.99999761581421
+            }
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677667373397622785",
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 85
+          },
+          "discardAlpha": 1
+        },
+        "name": "fence",
+        "position": {
+          "x": 28.079992294312,
+          "y": 30.5002784729
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 2,
+          "y": 2,
+          "z": 44
+        },
+        "size": {
+          "x": 2,
+          "y": 2,
+          "z": 44
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "batchType": "Dynamic",
+        "btsKey": "ebd9f2b3-0da7-42bd-8d31-e8c8b6b83920",
+        "componentList": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8677703057265000449",
+            "material": {
+              "color": {
+                "b": 0
+              }
+            },
+            "name": "fence",
+            "position": {
+              "y": 22.5,
+              "z": 21.9001
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 90
+            },
+            "scale": {
+              "x": 20,
+              "y": 0.6,
+              "z": 20
+            },
+            "shape": "3",
+            "size": {
+              "x": 20,
+              "y": 0.6,
+              "z": 20
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "booleanOperation": 2,
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8677703057267392513",
+            "material": {
+              "color": {
+                "b": 0
+              }
+            },
+            "name": "fence",
+            "position": {
+              "y": 22.5,
+              "z": 21.9001
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 90
+            },
+            "scale": {
+              "x": 18,
+              "y": 1.6,
+              "z": 18
+            },
+            "shape": "3",
+            "size": {
+              "x": 18,
+              "y": 1.6,
+              "z": 18
+            },
+            "useAnchor": true
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677685357998080001",
+        "material": {
+          "color": {
+            "b": 174,
+            "g": 41,
+            "r": 20
+          },
+          "discardAlpha": 1
+        },
+        "mergeShapesDataKey": "8677685357936361473",
+        "name": "fence",
+        "position": {
+          "y": 22.499994277954,
+          "z": 21.900100708008
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 90
+        },
+        "scale": {
+          "x": 20,
+          "y": 0.6,
+          "z": 20
+        },
+        "size": {
+          "x": 20,
+          "y": 0.6,
+          "z": 20
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "batchType": "Dynamic",
+        "btsKey": "7c8445c6-1be2-4b91-bb69-4f4c4bf31197",
+        "componentList": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8677700114638290945",
+            "name": "fence",
+            "position": {
+              "y": 22.5,
+              "z": 21.5001
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 90
+            },
+            "scale": {
+              "x": 42,
+              "y": 5,
+              "z": 42
+            },
+            "shape": "3",
+            "size": {
+              "x": 42,
+              "y": 5,
+              "z": 42
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "booleanOperation": 2,
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8677700114640666625",
+            "name": "fence",
+            "position": {
+              "y": 22.5,
+              "z": 20.5001
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 90
+            },
+            "scale": {
+              "x": 40,
+              "y": 6,
+              "z": 40
+            },
+            "shape": "3",
+            "size": {
+              "x": 40,
+              "y": 6,
+              "z": 40
+            },
+            "useAnchor": true
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677688073127804929",
+        "material": {
+          "color": {
+            "b": 174,
+            "g": 41,
+            "r": 20
+          },
+          "discardAlpha": 1
+        },
+        "mergeShapesDataKey": "8677688073067462657",
+        "name": "fence",
+        "position": {
+          "y": 22.499994277954,
+          "z": 21.500099182129
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 90
+        },
+        "scale": {
+          "x": 42,
+          "y": 5,
+          "z": 42
+        },
+        "size": {
+          "x": 42,
+          "y": 5,
+          "z": 42
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "837fcfd3-43c1-4971-bced-4c960409f316",
+        "cameraCollideEnable": false,
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677689565822287873",
+        "material": {
+          "alpha": 0.8,
+          "color": {
+            "b": 82,
+            "g": 0,
+            "r": 0
+          },
+          "discardAlpha": 1
+        },
+        "name": "fence",
+        "position": {
+          "y": 22.499994277954,
+          "z": 22.400093078613
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 90
+        },
+        "scale": {
+          "x": 19.9998,
+          "y": 0.59999,
+          "z": 19.9998
+        },
+        "shape": "3",
+        "size": {
+          "x": 19.9998,
+          "y": 0.59999,
+          "z": 19.9998
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "92a5bfad-e538-44f6-9608-d3f2c2f183d4",
+        "cameraCollideEnable": false,
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677690401349959681",
+        "material": {
+          "alpha": 0.8,
+          "color": {
+            "b": 82,
+            "g": 0,
+            "r": 0
+          },
+          "discardAlpha": 1
+        },
+        "name": "fence",
+        "position": {
+          "y": 22.499994277954,
+          "z": 23.350101470947
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 90
+        },
+        "scale": {
+          "x": 17,
+          "y": 0.7,
+          "z": 17
+        },
+        "shape": "3",
+        "size": {
+          "x": 17,
+          "y": 0.7,
+          "z": 17
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "a580fec8-da10-4382-8cb8-37a1e9b0a01f",
+        "cameraCollideEnable": false,
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677698684622864385",
+        "material": {
+          "color": {
+            "b": 0
+          },
+          "discardAlpha": 1
+        },
+        "name": "fence",
+        "position": {
+          "y": 22.499994277954,
+          "z": 23.400100708008
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 90
+        },
+        "scale": {
+          "x": 28,
+          "y": 0.6,
+          "z": 28
+        },
+        "shape": "3",
+        "size": {
+          "x": 28,
+          "y": 0.6,
+          "z": 28
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "batchType": "Dynamic",
+        "btsKey": "80199a33-1d1c-423e-a894-edf1e56e04c8",
+        "componentList": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8677700114638290945",
+            "name": "fence",
+            "position": {
+              "y": 22.5,
+              "z": 21.5001
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 90
+            },
+            "scale": {
+              "x": 42,
+              "y": 5,
+              "z": 42
+            },
+            "shape": "3",
+            "size": {
+              "x": 42,
+              "y": 5,
+              "z": 42
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "booleanOperation": 2,
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8677700114640666625",
+            "name": "fence",
+            "position": {
+              "y": 22.5,
+              "z": 20.5001
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 90
+            },
+            "scale": {
+              "x": 40,
+              "y": 6,
+              "z": 40
+            },
+            "shape": "3",
+            "size": {
+              "x": 40,
+              "y": 6,
+              "z": 40
+            },
+            "useAnchor": true
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677700114637635585",
+        "material": {
+          "color": {
+            "b": 174,
+            "g": 41,
+            "r": 20
+          },
+          "discardAlpha": 1
+        },
+        "mergeShapesDataKey": "8677688073067462657",
+        "name": "fence",
+        "position": {
+          "y": 22.499994277954,
+          "z": -21.5
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -90
+        },
+        "scale": {
+          "x": 42,
+          "y": 5,
+          "z": 42
+        },
+        "size": {
+          "x": 42,
+          "y": 5,
+          "z": 42
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "ac6f3fbb-e6de-4477-afa3-d09370838e6c",
+        "cameraCollideEnable": false,
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677700711935885313",
+        "material": {
+          "color": {
+            "b": 0
+          },
+          "discardAlpha": 1
+        },
+        "name": "fence",
+        "position": {
+          "y": 22.499994277954,
+          "z": -23.4
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 90
+        },
+        "scale": {
+          "x": 28,
+          "y": 0.6,
+          "z": 28
+        },
+        "shape": "3",
+        "size": {
+          "x": 28,
+          "y": 0.6,
+          "z": 28
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "5900409f-1a44-47bd-8466-e4ab823cfb69",
+        "cameraCollideEnable": false,
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677700827627732993",
+        "material": {
+          "alpha": 0.8,
+          "color": {
+            "b": 82,
+            "g": 0,
+            "r": 0
+          },
+          "discardAlpha": 1
+        },
+        "name": "fence",
+        "position": {
+          "y": 22.499994277954,
+          "z": -22.65
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 90
+        },
+        "scale": {
+          "x": 20,
+          "y": 1.1,
+          "z": 20
+        },
+        "shape": "3",
+        "size": {
+          "x": 20,
+          "y": 1.1,
+          "z": 20
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "10f886ab-cbc6-4997-b0e8-97193ba46e02",
+        "cameraCollideEnable": false,
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677702688451723265",
+        "material": {
+          "alpha": 0.8,
+          "color": {
+            "b": 82,
+            "g": 0,
+            "r": 0
+          },
+          "discardAlpha": 1
+        },
+        "name": "fence",
+        "position": {
+          "y": 22.499994277954,
+          "z": -23.35
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 90
+        },
+        "scale": {
+          "x": 17,
+          "y": 0.7,
+          "z": 17
+        },
+        "shape": "3",
+        "size": {
+          "x": 17,
+          "y": 0.7,
+          "z": 17
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "batchType": "Dynamic",
+        "btsKey": "eae75998-acdf-436d-9f4d-4ddc068b29fa",
+        "componentList": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8677703057265000449",
+            "material": {
+              "color": {
+                "b": 0
+              }
+            },
+            "name": "fence",
+            "position": {
+              "y": 22.5,
+              "z": 21.9001
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 90
+            },
+            "scale": {
+              "x": 20,
+              "y": 0.6,
+              "z": 20
+            },
+            "shape": "3",
+            "size": {
+              "x": 20,
+              "y": 0.6,
+              "z": 20
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "booleanOperation": 2,
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8677703057267392513",
+            "material": {
+              "color": {
+                "b": 0
+              }
+            },
+            "name": "fence",
+            "position": {
+              "y": 22.5,
+              "z": 21.9001
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 90
+            },
+            "scale": {
+              "x": 18,
+              "y": 1.6,
+              "z": 18
+            },
+            "shape": "3",
+            "size": {
+              "x": 18,
+              "y": 1.6,
+              "z": 18
+            },
+            "useAnchor": true
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677703057264345089",
+        "material": {
+          "color": {
+            "b": 174,
+            "g": 41,
+            "r": 20
+          },
+          "discardAlpha": 1
+        },
+        "mergeShapesDataKey": "8677685357936361473",
+        "name": "fence",
+        "position": {
+          "y": 22.499994277954,
+          "z": -21.9
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 90
+        },
+        "scale": {
+          "x": 20,
+          "y": 0.6,
+          "z": 20
+        },
+        "size": {
+          "x": 20,
+          "y": 0.6,
+          "z": 20
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "98d2f2f1-cf2d-4957-bc4d-63383a8a1aee",
+        "cameraCollideEnable": false,
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/Texture/floor_15.png"
+            },
+            "id": "8677703440512122881"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677703440511713281",
+        "material": {
+          "color": {
+            "b": 0
+          },
+          "discardAlpha": 1
+        },
+        "name": "fence",
+        "position": {
+          "y": 22.499998092651,
+          "z": -21.9
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -90
+        },
+        "scale": {
+          "x": 12,
+          "y": 0.2,
+          "z": 12
+        },
+        "shape": "3",
+        "size": {
+          "x": 12,
+          "y": 0.2,
+          "z": 12
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "26ab7bdd-8fc7-44c0-89cc-df5b90fae445",
+        "cameraCollideEnable": false,
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/floor_16.png"
+            },
+            "id": "8677703617210941441"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677703617210515457",
+        "material": {
+          "color": {
+            "r": 85
+          },
+          "discardAlpha": 1
+        },
+        "name": "fence",
+        "position": {
+          "y": 22.499998092651,
+          "z": -21.6
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 90
+        },
+        "scale": {
+          "x": 4.8,
+          "y": 0.199999,
+          "z": 4.8
+        },
+        "shape": "3",
+        "size": {
+          "x": 4.8,
+          "y": 0.199999,
+          "z": 4.8
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "ea03bad6-c88c-4984-9d1d-ddfaf241abe5",
+        "cameraCollideEnable": false,
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_02_blue_3d.effect"
+            },
+            "id": "8677703728060973057",
+            "position": {
+              "x": 1.9073485191257e-06,
+              "y": 29.800003051758,
+              "z": -21.900001525879
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_03_blue_3d.effect"
+            },
+            "id": "8677703728062496769",
+            "position": {
+              "x": -2.8099973201752,
+              "y": 29.320003509521,
+              "z": -21.900001525879
+            },
+            "rotation": {
+              "z": 22.5
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_04_blue_3d.effect"
+            },
+            "id": "8677703728064020481",
+            "position": {
+              "x": -5.2199969291687,
+              "y": 27.660003662109,
+              "z": -21.900001525879
+            },
+            "rotation": {
+              "z": 45
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_05_blue_3d.effect"
+            },
+            "id": "8677703728065544193",
+            "position": {
+              "x": -6.8199968338013,
+              "y": 25.320003509521,
+              "z": -21.900001525879
+            },
+            "rotation": {
+              "z": 67
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_06_blue_3d.effect"
+            },
+            "id": "8677703728067067905",
+            "position": {
+              "x": -7.2999968528748,
+              "y": 22.500003814697,
+              "z": -21.900001525879
+            },
+            "rotation": {
+              "z": 90
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_02_blue_3d.effect"
+            },
+            "id": "8677703728068591617",
+            "position": {
+              "x": -6.8199968338013,
+              "y": 19.680004119873,
+              "z": -21.900001525879
+            },
+            "rotation": {
+              "z": 112.5
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_03_blue_3d.effect"
+            },
+            "id": "8677703728070115329",
+            "position": {
+              "x": -5.2199969291687,
+              "y": 17.340003967285,
+              "z": -21.900001525879
+            },
+            "rotation": {
+              "z": 135
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_04_blue_3d.effect"
+            },
+            "id": "8677703728071622657",
+            "position": {
+              "x": -2.8099973201752,
+              "y": 15.680006027222,
+              "z": -21.900001525879
+            },
+            "rotation": {
+              "z": 157
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_05_blue_3d.effect"
+            },
+            "id": "8677703728073162753",
+            "position": {
+              "x": 1.9073485191257e-06,
+              "y": 15.200005531311,
+              "z": -21.900001525879
+            },
+            "rotation": {
+              "z": 179.99996948242
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_06_blue_3d.effect"
+            },
+            "id": "8677703728074670081",
+            "position": {
+              "x": 2.8100020885468,
+              "y": 15.680006027222,
+              "z": -21.900001525879
+            },
+            "rotation": {
+              "z": -157.5
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_02_blue_3d.effect"
+            },
+            "id": "8677703728076193793",
+            "position": {
+              "x": 5.2200016975403,
+              "y": 17.340003967285,
+              "z": -21.900001525879
+            },
+            "rotation": {
+              "z": -135
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_03_blue_3d.effect"
+            },
+            "id": "8677703728077701121",
+            "position": {
+              "x": 6.8200011253357,
+              "y": 19.680004119873,
+              "z": -21.900001525879
+            },
+            "rotation": {
+              "z": -113
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_04_blue_3d.effect"
+            },
+            "id": "8677703728079208449",
+            "position": {
+              "x": 7.2999997138977,
+              "y": 22.500003814697,
+              "z": -21.900001525879
+            },
+            "rotation": {
+              "z": -90
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_05_blue_3d.effect"
+            },
+            "id": "8677703728080732161",
+            "position": {
+              "x": 6.8200011253357,
+              "y": 25.31000328064,
+              "z": -21.900001525879
+            },
+            "rotation": {
+              "z": -67.5
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_06_blue_3d.effect"
+            },
+            "id": "8677703728082272257",
+            "position": {
+              "x": 5.1600012779236,
+              "y": 27.720003128052,
+              "z": -21.900001525879
+            },
+            "rotation": {
+              "z": -45
+            },
+            "scale": {
+              "x": 6,
+              "y": 3
+            },
+            "size": {
+              "x": 6,
+              "y": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_04_blue_3d.effect"
+            },
+            "id": "8677703728083779585",
+            "position": {
+              "x": 2.8100020885468,
+              "y": 29.320003509521,
+              "z": -21.900001525879
+            },
+            "rotation": {
+              "z": -23
+            },
+            "scale": {
+              "x": 6,
+              "y": 3,
+              "z": 0.999999
+            },
+            "size": {
+              "x": 6,
+              "y": 3,
+              "z": 0.999999
+            }
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677703728060432385",
+        "material": {
+          "alpha": 0,
+          "color": {
+            "b": 0
+          },
+          "discardAlpha": 1
+        },
+        "name": "fence",
+        "position": {
+          "y": 22.499998092651,
+          "z": -21.9
+        },
+        "restitution": 0.3,
+        "useAnchor": true,
+        "useCollide": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "40697f2e-9944-4a28-9fd7-89d518f5922e",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/NewFolder/215cg_light_blue_3d .effect"
+            },
+            "id": "8677904922501431297",
+            "position": {
+              "x": 10.44,
+              "y": 21.11
+            },
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 7.9892,
+              "y": 1.27383,
+              "z": 3.41893
+            },
+            "size": {
+              "x": 40.5000114440918,
+              "y": 7.0000262260437,
+              "z": 20.0000228881836
+            }
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677704921133498369",
+        "material": {
+          "alpha": 0.7,
+          "color": {
+            "b": 174,
+            "g": 41,
+            "r": 20
+          },
+          "discardAlpha": 1
+        },
+        "name": "floor",
+        "position": {
+          "x": 8.9999952316284,
+          "y": 20
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 3,
+          "y": 0.999992,
+          "z": 39.9995
+        },
+        "size": {
+          "x": 3,
+          "y": 0.999992,
+          "z": 39.9995
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "1fe33983-3557-4e8a-8ccc-84acc9522457",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalImageType": "2",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/floor_003.png"
+            },
+            "decalTiling": {
+              "x": 7,
+              "y": 4
+            },
+            "id": "8677708215643013121"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677705255459700737",
+        "material": {
+          "color": {
+            "g": 245,
+            "r": 205
+          },
+          "discardAlpha": 1
+        },
+        "name": "floor",
+        "position": {
+          "x": -3.75,
+          "y": 20
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 22.4999,
+          "y": 0.999997,
+          "z": 39.9998
+        },
+        "size": {
+          "x": 22.4999,
+          "y": 0.999997,
+          "z": 39.9998
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "7912c566-7dc8-416f-a9d0-0f6e76b2b0bb",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/txxd209_digital fall_blue_01_3d/txxd209_digital fall_blue_01_3d.effect"
+            },
+            "id": "8677860229815205889",
+            "position": {
+              "x": -29.920038223267,
+              "y": 4.260290145874,
+              "z": 8.5830688476563e-06
+            },
+            "rotation": {
+              "y": -90.000282287598
+            },
+            "scale": {
+              "x": 1.13162,
+              "y": 1.23688,
+              "z": 0.170538
+            },
+            "size": {
+              "x": 40.0001411437988,
+              "y": 219.999145507812,
+              "z": 6.99999761581421
+            }
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677860229814665217",
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 85
+          },
+          "discardAlpha": 1
+        },
+        "name": "fence",
+        "position": {
+          "x": -28.08,
+          "y": 30.5002784729
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -179.99996948242
+        },
+        "scale": {
+          "x": 2,
+          "y": 2,
+          "z": 44
+        },
+        "size": {
+          "x": 2,
+          "y": 2,
+          "z": 44
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "773e2f4a-dc59-41da-af79-bedbda43cac1",
+        "cameraCollideEnable": false,
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8690034053642944513",
+        "material": {
+          "alpha": 0,
+          "color": {
+            "b": 127
+          },
+          "discardAlpha": 1
+        },
+        "name": "AirWall",
+        "position": {
+          "x": 7,
+          "y": 30.5
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 0.999999,
+          "y": 20,
+          "z": 39.9999
+        },
+        "size": {
+          "x": 0.999999,
+          "y": 20,
+          "z": 39.9999
+        },
+        "useAnchor": true,
+        "useGravity": false
+      }
+    ],
+    "name": {
+      "value": "map_map003"
+    },
+    "touch_pos": {
+      "down": 10
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b5abdfbeccd699b0bca5ab801ff05862"
+    },
+    "VERSION": "0.23"
+  }
+}

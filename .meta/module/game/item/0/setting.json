@@ -1,0 +1,53 @@
+{
+  "data": {
+    "defaultView": "Back",
+    "enableNewLighting": true,
+    "firstPerson_enable": {
+      "enable": false
+    },
+    "fixed_viewPos": {
+      "pos": {
+        "__OBJ_TYPE": "Vector3i"
+      }
+    },
+    "initPos": {
+      "map": "map002",
+      "pos": {
+        "x": -50,
+        "y": 106,
+        "z": -100
+      }
+    },
+    "nowTime": {
+      "h": 10,
+      "m": 40
+    },
+    "player_range": {
+      "max": 8,
+      "min": 1
+    },
+    "startPos": {
+      "map": "map002",
+      "pos": {
+        "x": -50,
+        "y": 106,
+        "z": -100
+      }
+    },
+    "ui_enable": {
+      "appMainRole": false,
+      "playerinfo": false,
+      "shortcutBar": false
+    },
+    "unlimitedPlayTime": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "3653d1a1234efbaa2567abb16f26a0a9",
+      "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
+      "triggers.bts": "",
+      "triggers_client.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

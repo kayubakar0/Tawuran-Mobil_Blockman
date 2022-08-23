@@ -1,0 +1,2690 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "asset": "asset/Texture/SkyBox/day01_font.png"
+        },
+        "bottom": {
+          "asset": "asset/Texture/SkyBox/day01_down.png"
+        },
+        "front": {
+          "asset": "asset/Texture/SkyBox/day01_back.png"
+        },
+        "left": {
+          "asset": "asset/Texture/SkyBox/day01_right.png"
+        },
+        "right": {
+          "asset": "asset/Texture/SkyBox/day01_left.png"
+        },
+        "top": {
+          "asset": "asset/Texture/SkyBox/day01_up.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "26644713697705985"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8681990181894275073",
+        "ID": 2,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight",
+        "skyColor": {
+          "b": 176,
+          "g": 186,
+          "r": 215
+        },
+        "skyLineColor": {
+          "b": 186,
+          "g": 147,
+          "r": 194
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8690029275638841345",
+        "ID": 3,
+        "lightBrightness": 0.8,
+        "lightColor": {
+          "b": 125,
+          "g": 143,
+          "r": 174
+        },
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "y": 5
+        },
+        "rotation": {
+          "y": -45,
+          "z": -36
+        },
+        "shadows": {
+          "shadowsType": "hard"
+        },
+        "skyColor": {
+          "b": 143,
+          "g": 133
+        },
+        "skyLineColor": {
+          "g": 62,
+          "r": 62
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_PartOperation",
+            "batchType": "Dynamic",
+            "btsKey": "d68f210d-cc33-44d7-a43f-e1a02a695725",
+            "componentList": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "cameraCollideEnable": false,
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8671857720273092609",
+                "position": {
+                  "y": 1.0999
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 58,
+                  "y": 0.199989,
+                  "z": 58
+                },
+                "shape": "3",
+                "size": {
+                  "x": 58,
+                  "y": 0.199989,
+                  "z": 58
+                },
+                "useAnchor": true
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "booleanOperation": 2,
+                "cameraCollideEnable": false,
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8671857720278237185",
+                "position": {
+                  "y": 1.0999
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 45,
+                  "y": 0.199989,
+                  "z": 45
+                },
+                "shape": "3",
+                "size": {
+                  "x": 45,
+                  "y": 0.199989,
+                  "z": 45
+                },
+                "useAnchor": true
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8671857720370806785",
+            "material": {
+              "color": {
+                "g": 174,
+                "r": 174
+              },
+              "discardAlpha": 1
+            },
+            "mergeShapesDataKey": "8671857720281858049",
+            "name": "BottomPlate",
+            "position": {
+              "y": 1.2
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 58,
+              "y": 0.199989,
+              "z": 58
+            },
+            "size": {
+              "x": 58,
+              "y": 0.199989,
+              "z": 58
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_PartOperation",
+            "batchType": "Dynamic",
+            "btsKey": "301ea011-8921-436d-8bcf-1090a2321638",
+            "componentList": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "cameraCollideEnable": false,
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8671889520697458689",
+                "position": {
+                  "y": 1.0459
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 58,
+                  "y": 0.03,
+                  "z": 58
+                },
+                "shape": "3",
+                "size": {
+                  "x": 58,
+                  "y": 0.03,
+                  "z": 58
+                },
+                "useAnchor": true
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "booleanOperation": 2,
+                "cameraCollideEnable": false,
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8671889520700899329",
+                "position": {
+                  "y": 1.0459
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 43.5,
+                  "y": 0.03,
+                  "z": 43.5
+                },
+                "shape": "3",
+                "size": {
+                  "x": 43.5,
+                  "y": 0.03,
+                  "z": 43.5
+                },
+                "useAnchor": true
+              }
+            ],
+            "density": 2.2,
+            "id": "8671889520760061953",
+            "material": {
+              "alpha": 0,
+              "color": {
+                "g": 174,
+                "r": 174
+              },
+              "discardAlpha": 1
+            },
+            "mergeShapesDataKey": "8671889520703700993",
+            "name": "BottomPlate",
+            "position": {
+              "y": 1.210000038147
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 0.03,
+              "y": 0.03,
+              "z": 0.03
+            },
+            "size": {
+              "x": 0.03,
+              "y": 0.03,
+              "z": 0.03
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_PartOperation",
+            "batchType": "Dynamic",
+            "btsKey": "f79297f6-2eab-43de-a1ec-251d2ec60764",
+            "componentList": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "cameraCollideEnable": false,
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8671892411284848641",
+                "position": {
+                  "y": 1.1939
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 35.5,
+                  "y": 0.01,
+                  "z": 35.5
+                },
+                "shape": "3",
+                "size": {
+                  "x": 35.5,
+                  "y": 0.01,
+                  "z": 35.5
+                },
+                "useAnchor": true
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "booleanOperation": 2,
+                "cameraCollideEnable": false,
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8671892411292336129",
+                "position": {
+                  "y": 1.1939
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 35,
+                  "y": 0.01,
+                  "z": 35
+                },
+                "shape": "3",
+                "size": {
+                  "x": 35,
+                  "y": 0.01,
+                  "z": 35
+                },
+                "useAnchor": true
+              }
+            ],
+            "density": 3.4,
+            "friction": 0.4,
+            "id": "8671892411391967233",
+            "material": {
+              "color": {
+                "b": 174,
+                "g": 41,
+                "r": 22
+              },
+              "discardAlpha": 1,
+              "texture": "part_shatu.tga"
+            },
+            "mergeShapesDataKey": "8671892411297710081",
+            "name": "BottomPlate",
+            "position": {
+              "y": 1.194
+            },
+            "restitution": 0.06,
+            "scale": {
+              "x": 35.5,
+              "y": 0.01,
+              "z": 35.5
+            },
+            "size": {
+              "x": 35.5,
+              "y": 0.01,
+              "z": 35.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_PartOperation",
+            "batchType": "Dynamic",
+            "btsKey": "69a1a0be-0325-403b-9abd-01347287c525",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/floor_14.png"
+                },
+                "decalTiling": {
+                  "x": 0.028,
+                  "y": 0.028
+                },
+                "id": "8674530714062929921"
+              }
+            ],
+            "componentList": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "cameraCollideEnable": false,
+                "density": 3.4,
+                "friction": 0.4,
+                "id": "8670769538931294209",
+                "material": {
+                  "texture": "part_shatu.tga"
+                },
+                "position": {
+                  "y": 1.0999
+                },
+                "restitution": 0.06,
+                "scale": {
+                  "x": 35,
+                  "y": 0.199989,
+                  "z": 35
+                },
+                "shape": "3",
+                "size": {
+                  "x": 35,
+                  "y": 0.199989,
+                  "z": 35
+                },
+                "useAnchor": true
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "booleanOperation": 2,
+                "cameraCollideEnable": false,
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8670769538934652929",
+                "position": {
+                  "y": 1.0999
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 9.99996,
+                  "y": 0.199989,
+                  "z": 9.99996
+                },
+                "shape": "3",
+                "size": {
+                  "x": 9.99996,
+                  "y": 0.199989,
+                  "z": 9.99996
+                },
+                "useAnchor": true
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8670769538996387841",
+            "massCenter": {
+              "y": 1.0999003648758
+            },
+            "material": {
+              "color": {
+                "b": 51,
+                "g": 21,
+                "r": 14
+              },
+              "discardAlpha": 1
+            },
+            "mergeShapesDataKey": "8670769538937274369",
+            "name": "BottomPlate",
+            "position": {
+              "y": 1.0999003648758
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 35,
+              "y": 0.199989,
+              "z": 35
+            },
+            "size": {
+              "x": 35,
+              "y": 0.199989,
+              "z": 35
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8671965841510301697",
+        "name": "BottomPlate"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "12928af9-4de4-4e21-b1e7-97a50dc8165d",
+            "cameraCollideEnable": false,
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_HingeConstraint",
+                "id": "8671896327617609729",
+                "motorForce": 1000000,
+                "motorTargetAngleVelocity": 30,
+                "slavePartID": "8671691941435392001",
+                "useMotor": true
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/floor_15.png"
+                },
+                "id": "8674919378746867713"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8670647423980421121",
+            "massCenter": {
+              "y": 1.0999004840851
+            },
+            "material": {
+              "discardAlpha": 1
+            },
+            "name": "HingedBottomPlate",
+            "position": {
+              "y": 1.0999004840851
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 9.99996,
+              "y": 0.199989,
+              "z": 9.99996
+            },
+            "shape": "3",
+            "size": {
+              "x": 9.99996,
+              "y": 0.199989,
+              "z": 9.99996
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "22aa368a-eb90-4312-862e-5dce37ffa0fa",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/floor_22.png"
+                },
+                "id": "8676329674674307073"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8671691941435392001",
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 184
+              },
+              "discardAlpha": 1
+            },
+            "name": "LargeTurntable",
+            "position": {
+              "y": 0.95
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 46,
+              "y": 0.199989,
+              "z": 46
+            },
+            "shape": "3",
+            "size": {
+              "x": 46,
+              "y": 0.199989,
+              "z": 46
+            }
+          }
+        ],
+        "id": "8671967005820354561",
+        "name": "LargeTurntable"
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "batchType": "Dynamic",
+        "btsKey": "3ba4ba06-0ab6-446d-90ca-f6ae7c7b4d84",
+        "componentList": [
+          {
+            "__OBJ_TYPE": "Instance_PartOperation",
+            "batchType": "Dynamic",
+            "collisionUniqueKey": "8674753114881769473",
+            "componentList": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8674754167127031809",
+                "material": {
+                  "color": {
+                    "b": 0,
+                    "g": 171
+                  }
+                },
+                "position": {
+                  "y": 1.7
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 5,
+                  "z": 5
+                },
+                "shape": "4",
+                "size": {
+                  "x": 5,
+                  "z": 5
+                },
+                "useAnchor": true
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "booleanOperation": 2,
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8674754167129636865",
+                "material": {
+                  "color": {
+                    "b": 0,
+                    "g": 171
+                  }
+                },
+                "position": {
+                  "y": 1.8
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 5,
+                  "z": 5
+                },
+                "shape": "3",
+                "size": {
+                  "x": 5,
+                  "z": 5
+                },
+                "useAnchor": true
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8674754167126294529",
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 171
+              }
+            },
+            "mergeShapesDataKey": "8674753114828668929",
+            "position": {
+              "x": 7.45058e-08,
+              "y": 1.25
+            },
+            "restitution": 0.3,
+            "size": {
+              "y": 0.1
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "booleanOperation": 2,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8674754167134568449",
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 171
+              }
+            },
+            "position": {
+              "y": 1.2
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 4.2,
+              "y": 0.599999,
+              "z": 4.2
+            },
+            "shape": "3",
+            "size": {
+              "x": 4.2,
+              "y": 0.599999,
+              "z": 4.2
+            },
+            "useAnchor": true
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8674754167335043073",
+        "material": {
+          "color": {
+            "b": 174,
+            "g": 41,
+            "r": 22
+          },
+          "discardAlpha": 1
+        },
+        "mergeShapesDataKey": "8674754167138222081",
+        "name": "Floor",
+        "position": {
+          "x": 7.4505784652956e-08,
+          "y": 1.2499998807907
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 5,
+          "z": 5
+        },
+        "size": {
+          "x": 5,
+          "z": 5
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "batchType": "Dynamic",
+        "btsKey": "ac5d5dad-7a43-41ee-9a11-0c4ccbea748b",
+        "componentList": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676104707670769665",
+            "position": {
+              "y": 4.60798
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 60,
+              "y": 7,
+              "z": 60
+            },
+            "shape": "3",
+            "size": {
+              "x": 60,
+              "y": 7,
+              "z": 60
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "booleanOperation": 2,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676104707674619905",
+            "position": {
+              "y": 6.10798
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 58,
+              "y": 12,
+              "z": 58
+            },
+            "shape": "3",
+            "size": {
+              "x": 58,
+              "y": 12,
+              "z": 58
+            },
+            "useAnchor": true
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8676104707753443329",
+        "material": {
+          "color": {
+            "b": 174,
+            "g": 41,
+            "r": 22
+          },
+          "discardAlpha": 1
+        },
+        "mergeShapesDataKey": "8676104707677585409",
+        "name": "Floor",
+        "position": {
+          "y": 4.6079778671265
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 60,
+          "y": 7,
+          "z": 60
+        },
+        "size": {
+          "x": 60,
+          "y": 7,
+          "z": 60
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "batchType": "Dynamic",
+        "btsKey": "23ebf9ec-f37c-446a-89f2-c7f501888532",
+        "componentList": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676283115213635585",
+            "position": {
+              "y": 1.797
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 58,
+              "y": 0.999999,
+              "z": 58
+            },
+            "shape": "3",
+            "size": {
+              "x": 58,
+              "y": 0.999999,
+              "z": 58
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "booleanOperation": 2,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676283115217108993",
+            "position": {
+              "y": 4.297
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 52,
+              "y": 8,
+              "z": 52
+            },
+            "shape": "3",
+            "size": {
+              "x": 52,
+              "y": 8,
+              "z": 52
+            },
+            "useAnchor": true
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8676283115274076161",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mergeShapesDataKey": "8676283115220893697",
+        "name": "Floor",
+        "position": {
+          "y": 1.796999335289
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 58,
+          "y": 0.999999,
+          "z": 58
+        },
+        "size": {
+          "x": 58,
+          "y": 0.999999,
+          "z": 58
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "batchType": "Dynamic",
+        "btsKey": "061464b4-c657-4161-9d28-50ade9b67282",
+        "componentList": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676285142515056641",
+            "material": {
+              "color": {
+                "g": 129,
+                "r": 94
+              }
+            },
+            "position": {
+              "y": 2.547
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 52.5,
+              "y": 0.499999,
+              "z": 52.5
+            },
+            "shape": "3",
+            "size": {
+              "x": 52.5,
+              "y": 0.499999,
+              "z": 52.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "booleanOperation": 2,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676285142518890497",
+            "position": {
+              "y": 4.297
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 52,
+              "y": 8,
+              "z": 52
+            },
+            "shape": "3",
+            "size": {
+              "x": 52,
+              "y": 8,
+              "z": 52
+            },
+            "useAnchor": true
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8676285142666838017",
+        "material": {
+          "color": {
+            "g": 92,
+            "r": 41
+          },
+          "discardAlpha": 1
+        },
+        "mergeShapesDataKey": "8676285142521774081",
+        "name": "Floor",
+        "position": {
+          "y": 2.5469992160797
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 52.5,
+          "y": 0.499999,
+          "z": 52.5
+        },
+        "size": {
+          "x": 52.5,
+          "y": 0.499999,
+          "z": 52.5
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "batchType": "Dynamic",
+        "btsKey": "69c3beea-5795-437c-ae1b-9ba056b64a25",
+        "componentList": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676286257951539201",
+            "position": {
+              "y": 4.547
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 53,
+              "y": 4.49999,
+              "z": 53
+            },
+            "shape": "3",
+            "size": {
+              "x": 53,
+              "y": 4.49999,
+              "z": 53
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "booleanOperation": 2,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676286257955110913",
+            "position": {
+              "y": 4.297
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 52.5,
+              "y": 8,
+              "z": 52.5
+            },
+            "shape": "3",
+            "size": {
+              "x": 52.5,
+              "y": 8,
+              "z": 52.5
+            },
+            "useAnchor": true
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8676286258030395393",
+        "material": {
+          "alpha": 0.613,
+          "color": {
+            "b": 174,
+            "g": 41,
+            "r": 22
+          },
+          "discardAlpha": 1
+        },
+        "mergeShapesDataKey": "8676286257957765121",
+        "name": "Floor",
+        "position": {
+          "y": 4.5469989776611
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 53,
+          "y": 4.49999,
+          "z": 53
+        },
+        "size": {
+          "x": 53,
+          "y": 4.49999,
+          "z": 53
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "batchType": "Dynamic",
+        "btsKey": "48075cfd-717b-40b0-90b1-fee5f58f4b55",
+        "componentList": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676288765383360513",
+            "material": {
+              "color": {
+                "b": 67,
+                "g": 132
+              }
+            },
+            "position": {
+              "y": 7.047
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 58,
+              "y": 0.499989,
+              "z": 58
+            },
+            "shape": "3",
+            "size": {
+              "x": 58,
+              "y": 0.499989,
+              "z": 58
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "booleanOperation": 2,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676288765386801153",
+            "position": {
+              "y": 4.297
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 52.5,
+              "y": 8,
+              "z": 52.5
+            },
+            "shape": "3",
+            "size": {
+              "x": 52.5,
+              "y": 8,
+              "z": 52.5
+            },
+            "useAnchor": true
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8676288765444702209",
+        "material": {
+          "color": {
+            "b": 72,
+            "g": 133
+          },
+          "discardAlpha": 1
+        },
+        "mergeShapesDataKey": "8676288765389930497",
+        "name": "Floor",
+        "position": {
+          "y": 7.0469989776611
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 58,
+          "y": 0.499989,
+          "z": 58
+        },
+        "size": {
+          "x": 58,
+          "y": 0.499989,
+          "z": 58
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "batchType": "Dynamic",
+        "btsKey": "a8b2629d-ef2b-4296-a74c-ced6f14d9fdb",
+        "componentList": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676173354388652033",
+            "name": "Platform",
+            "position": {
+              "x": -24.0371,
+              "y": 2.3,
+              "z": -9.44178
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -6.99985e-07,
+              "y": -106.8
+            },
+            "scale": {
+              "x": 5,
+              "y": 2,
+              "z": 6.54999
+            },
+            "size": {
+              "x": 5,
+              "y": 2,
+              "z": 6.54999
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "booleanOperation": 2,
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676173354391027713",
+            "name": "Platform",
+            "position": {
+              "x": -23.5971,
+              "y": 3.0745,
+              "z": -10.2693
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 1.89822e-05,
+              "y": -106.8,
+              "z": 25
+            },
+            "scale": {
+              "x": 6.01912,
+              "y": 2.34118,
+              "z": 6.99997
+            },
+            "size": {
+              "x": 6.01912,
+              "y": 2.34118,
+              "z": 6.99997
+            },
+            "useAnchor": true
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8675849114917093377",
+        "material": {
+          "color": {
+            "g": 133,
+            "r": 94
+          },
+          "discardAlpha": 1
+        },
+        "mergeShapesDataKey": "8675089292735561729",
+        "name": "Floor",
+        "position": {
+          "x": -24.115913391113,
+          "y": 2.2999997138977,
+          "z": -9.181
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -6.9998532126192e-07,
+          "y": -106.8
+        },
+        "scale": {
+          "x": 5,
+          "y": 2,
+          "z": 6.54999
+        },
+        "size": {
+          "x": 5,
+          "y": 2,
+          "z": 6.54999
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "a6301ecd-514d-4382-874b-f50e247764f1",
+        "cameraCollideEnable": false,
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8675093895422656513",
+        "material": {
+          "color": {
+            "g": 133,
+            "r": 94
+          },
+          "discardAlpha": 1
+        },
+        "name": "Platform",
+        "position": {
+          "x": -24.536081314087,
+          "y": 2.2999997138977,
+          "z": -0.099026806652546
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -6.9615055053873e-07,
+          "y": -8,
+          "z": 7.3168322956008e-08
+        },
+        "scale": {
+          "x": 4.1,
+          "y": 2,
+          "z": 13
+        },
+        "size": {
+          "x": 4.1,
+          "y": 2,
+          "z": 13
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "a6301ecd-514d-4382-874b-f50e247764f1",
+        "cameraCollideEnable": false,
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8675097262256979969",
+        "material": {
+          "color": {
+            "g": 133,
+            "r": 94
+          },
+          "discardAlpha": 1
+        },
+        "name": "Platform",
+        "position": {
+          "x": -24.55,
+          "y": 2.2999997138977
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -6.9615055053873e-07,
+          "y": 8,
+          "z": 7.3168322956008e-08
+        },
+        "scale": {
+          "x": 4.1,
+          "y": 2,
+          "z": 13
+        },
+        "size": {
+          "x": 4.1,
+          "y": 2,
+          "z": 13
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "batchType": "Dynamic",
+        "btsKey": "37acb5cf-0c53-41c7-9023-01a645afc4c7",
+        "componentList": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676173354388652033",
+            "name": "Platform",
+            "position": {
+              "x": -24.0371,
+              "y": 2.3,
+              "z": -9.44178
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -6.99985e-07,
+              "y": -106.8
+            },
+            "scale": {
+              "x": 5,
+              "y": 2,
+              "z": 6.54999
+            },
+            "size": {
+              "x": 5,
+              "y": 2,
+              "z": 6.54999
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "booleanOperation": 2,
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676173354391027713",
+            "name": "Platform",
+            "position": {
+              "x": -23.5971,
+              "y": 3.0745,
+              "z": -10.2693
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 1.89822e-05,
+              "y": -106.8,
+              "z": 25
+            },
+            "scale": {
+              "x": 6.01912,
+              "y": 2.34118,
+              "z": 6.99997
+            },
+            "size": {
+              "x": 6.01912,
+              "y": 2.34118,
+              "z": 6.99997
+            },
+            "useAnchor": true
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8675097548991283201",
+        "material": {
+          "color": {
+            "g": 133,
+            "r": 94
+          },
+          "discardAlpha": 1
+        },
+        "mergeShapesDataKey": "8675089292735561729",
+        "name": "Floor",
+        "position": {
+          "x": -24.115913391113,
+          "y": 2.2999997138977,
+          "z": 9.181
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -6.9998532126192e-07,
+          "y": 106.8
+        },
+        "scale": {
+          "x": 5,
+          "y": 2,
+          "z": 6.54999
+        },
+        "size": {
+          "x": 5,
+          "y": 2,
+          "z": 6.54999
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "a6301ecd-514d-4382-874b-f50e247764f1",
+        "cameraCollideEnable": false,
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalImageType": "2",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/floor_21.png"
+            },
+            "decalTiling": {
+              "x": 1,
+              "y": 5
+            },
+            "id": "8676168041781018625"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8675097685827043329",
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 85
+          },
+          "discardAlpha": 1
+        },
+        "name": "Platform",
+        "position": {
+          "x": -24.070091247559,
+          "y": 2.259369134903,
+          "z": 9.43
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 1.8982214896823e-05,
+          "y": 106.8,
+          "z": 25
+        },
+        "scale": {
+          "x": 5,
+          "y": 0.2,
+          "z": 6.7
+        },
+        "size": {
+          "x": 5,
+          "y": 0.2,
+          "z": 6.7
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "a6301ecd-514d-4382-874b-f50e247764f1",
+        "cameraCollideEnable": false,
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalImageType": "2",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/floor_21.png"
+            },
+            "decalTiling": {
+              "x": 1,
+              "y": 5
+            },
+            "id": "8676166798044725249"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8675848877465698305",
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 85
+          },
+          "discardAlpha": 1
+        },
+        "name": "Platform",
+        "position": {
+          "x": -24.070091247559,
+          "y": 2.259369134903,
+          "z": -9.43
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 1.8982214896823e-05,
+          "y": -106.8,
+          "z": 25
+        },
+        "scale": {
+          "x": 5,
+          "y": 0.2,
+          "z": 6.7
+        },
+        "size": {
+          "x": 5,
+          "y": 0.2,
+          "z": 6.7
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "batchType": "Dynamic",
+        "btsKey": "a8b2629d-ef2b-4296-a74c-ced6f14d9fdb",
+        "componentList": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676173354388652033",
+            "name": "Platform",
+            "position": {
+              "x": -24.0371,
+              "y": 2.3,
+              "z": -9.44178
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -6.99985e-07,
+              "y": -106.8
+            },
+            "scale": {
+              "x": 5,
+              "y": 2,
+              "z": 6.54999
+            },
+            "size": {
+              "x": 5,
+              "y": 2,
+              "z": 6.54999
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "booleanOperation": 2,
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676173354391027713",
+            "name": "Platform",
+            "position": {
+              "x": -23.5971,
+              "y": 3.0745,
+              "z": -10.2693
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 1.89822e-05,
+              "y": -106.8,
+              "z": 25
+            },
+            "scale": {
+              "x": 6.01912,
+              "y": 2.34118,
+              "z": 6.99997
+            },
+            "size": {
+              "x": 6.01912,
+              "y": 2.34118,
+              "z": 6.99997
+            },
+            "useAnchor": true
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8676173055258918913",
+        "material": {
+          "color": {
+            "g": 133,
+            "r": 94
+          },
+          "discardAlpha": 1
+        },
+        "mergeShapesDataKey": "8675089292735561729",
+        "name": "Floor",
+        "position": {
+          "x": 4.1070857048035,
+          "y": 2.2999999523163,
+          "z": 25.475553512573
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -6.9998515073166e-07,
+          "y": 13.200018882751,
+          "z": 6.5137673900539e-13
+        },
+        "scale": {
+          "x": 5,
+          "y": 2,
+          "z": 6.54999
+        },
+        "size": {
+          "x": 5,
+          "y": 2,
+          "z": 6.54999
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "a6301ecd-514d-4382-874b-f50e247764f1",
+        "cameraCollideEnable": false,
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8676173055265996801",
+        "material": {
+          "color": {
+            "g": 133,
+            "r": 94
+          },
+          "discardAlpha": 1
+        },
+        "name": "Platform",
+        "position": {
+          "x": 12.182388305664,
+          "y": 2.2999999523163,
+          "z": 21.298442840576
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -6.9615157372027e-07,
+          "y": 111.99996185303,
+          "z": 7.3168465064555e-08
+        },
+        "scale": {
+          "x": 4.1,
+          "y": 2,
+          "z": 13
+        },
+        "size": {
+          "x": 4.1,
+          "y": 2,
+          "z": 13
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "a6301ecd-514d-4382-874b-f50e247764f1",
+        "cameraCollideEnable": false,
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8676173055268339713",
+        "material": {
+          "color": {
+            "g": 133,
+            "r": 94
+          },
+          "discardAlpha": 1
+        },
+        "name": "Platform",
+        "position": {
+          "x": 12.275106430054,
+          "y": 2.2999999523163,
+          "z": 21.260982513428
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -6.9615168740711e-07,
+          "y": 128.00001525879,
+          "z": 7.3168273218016e-08
+        },
+        "scale": {
+          "x": 4.1,
+          "y": 2,
+          "z": 13
+        },
+        "size": {
+          "x": 4.1,
+          "y": 2,
+          "z": 13
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "batchType": "Dynamic",
+        "btsKey": "37acb5cf-0c53-41c7-9023-01a645afc4c7",
+        "componentList": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676173354388652033",
+            "name": "Platform",
+            "position": {
+              "x": -24.0371,
+              "y": 2.3,
+              "z": -9.44178
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -6.99985e-07,
+              "y": -106.8
+            },
+            "scale": {
+              "x": 5,
+              "y": 2,
+              "z": 6.54999
+            },
+            "size": {
+              "x": 5,
+              "y": 2,
+              "z": 6.54999
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "booleanOperation": 2,
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676173354391027713",
+            "name": "Platform",
+            "position": {
+              "x": -23.5971,
+              "y": 3.0745,
+              "z": -10.2693
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 1.89822e-05,
+              "y": -106.8,
+              "z": 25
+            },
+            "scale": {
+              "x": 6.01912,
+              "y": 2.34118,
+              "z": 6.99997
+            },
+            "size": {
+              "x": 6.01912,
+              "y": 2.34118,
+              "z": 6.99997
+            },
+            "useAnchor": true
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8676173055271354369",
+        "material": {
+          "color": {
+            "g": 133,
+            "r": 94
+          },
+          "discardAlpha": 1
+        },
+        "mergeShapesDataKey": "8675089292735561729",
+        "name": "Floor",
+        "position": {
+          "x": 20.009042739868,
+          "y": 2.2999999523163,
+          "z": 16.294553756714
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -6.9998515073166e-07,
+          "y": -133.20001220703,
+          "z": -6.5137673900539e-13
+        },
+        "scale": {
+          "x": 5,
+          "y": 2,
+          "z": 6.54999
+        },
+        "size": {
+          "x": 5,
+          "y": 2,
+          "z": 6.54999
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "a6301ecd-514d-4382-874b-f50e247764f1",
+        "cameraCollideEnable": false,
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalImageType": "2",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/floor_21.png"
+            },
+            "decalTiling": {
+              "x": 1,
+              "y": 5
+            },
+            "id": "8676173055278972929"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8676173055278579713",
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 85
+          },
+          "discardAlpha": 1
+        },
+        "name": "Platform",
+        "position": {
+          "x": 20.201770782471,
+          "y": 2.2593693733215,
+          "z": 16.130369186401
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 2.1027984985267e-05,
+          "y": -133.20001220703,
+          "z": 24.999942779541
+        },
+        "scale": {
+          "x": 5,
+          "y": 0.2,
+          "z": 6.7
+        },
+        "size": {
+          "x": 5,
+          "y": 0.2,
+          "z": 6.7
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "a6301ecd-514d-4382-874b-f50e247764f1",
+        "cameraCollideEnable": false,
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalImageType": "2",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/floor_21.png"
+            },
+            "decalTiling": {
+              "x": 1,
+              "y": 5
+            },
+            "id": "8676173055282298881"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8676173055281905665",
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 85
+          },
+          "discardAlpha": 1
+        },
+        "name": "Platform",
+        "position": {
+          "x": 3.8685340881348,
+          "y": 2.2593693733215,
+          "z": 25.560369491577
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 1.7735812434694e-05,
+          "y": 13.200021743774,
+          "z": 24.999946594238
+        },
+        "scale": {
+          "x": 5,
+          "y": 0.2,
+          "z": 6.7
+        },
+        "size": {
+          "x": 5,
+          "y": 0.2,
+          "z": 6.7
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "batchType": "Dynamic",
+        "btsKey": "a8b2629d-ef2b-4296-a74c-ced6f14d9fdb",
+        "componentList": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676173354388652033",
+            "name": "Platform",
+            "position": {
+              "x": -24.0371,
+              "y": 2.3,
+              "z": -9.44178
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -6.99985e-07,
+              "y": -106.8
+            },
+            "scale": {
+              "x": 5,
+              "y": 2,
+              "z": 6.54999
+            },
+            "size": {
+              "x": 5,
+              "y": 2,
+              "z": 6.54999
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "booleanOperation": 2,
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676173354391027713",
+            "name": "Platform",
+            "position": {
+              "x": -23.5971,
+              "y": 3.0745,
+              "z": -10.2693
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 1.89822e-05,
+              "y": -106.8,
+              "z": 25
+            },
+            "scale": {
+              "x": 6.01912,
+              "y": 2.34118,
+              "z": 6.99997
+            },
+            "size": {
+              "x": 6.01912,
+              "y": 2.34118,
+              "z": 6.99997
+            },
+            "useAnchor": true
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8676173354375659521",
+        "material": {
+          "color": {
+            "g": 133,
+            "r": 94
+          },
+          "discardAlpha": 1
+        },
+        "mergeShapesDataKey": "8675089292735561729",
+        "name": "Floor",
+        "position": {
+          "x": 20.009056091309,
+          "y": 2.2999997138977,
+          "z": -16.294565200806
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -6.9998628760004e-07,
+          "y": 133.20001220703
+        },
+        "scale": {
+          "x": 5,
+          "y": 2,
+          "z": 6.54999
+        },
+        "size": {
+          "x": 5,
+          "y": 2,
+          "z": 6.54999
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "a6301ecd-514d-4382-874b-f50e247764f1",
+        "cameraCollideEnable": false,
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8676173354382721025",
+        "material": {
+          "color": {
+            "g": 133,
+            "r": 94
+          },
+          "discardAlpha": 1
+        },
+        "name": "Platform",
+        "position": {
+          "x": 12.35391998291,
+          "y": 2.2999997138977,
+          "z": -21.199426651001
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -6.9615231268472e-07,
+          "y": -128,
+          "z": 7.3168202163743e-08
+        },
+        "scale": {
+          "x": 4.1,
+          "y": 2,
+          "z": 13
+        },
+        "size": {
+          "x": 4.1,
+          "y": 2,
+          "z": 13
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "a6301ecd-514d-4382-874b-f50e247764f1",
+        "cameraCollideEnable": false,
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8676173354385047553",
+        "material": {
+          "color": {
+            "g": 133,
+            "r": 94
+          },
+          "discardAlpha": 1
+        },
+        "name": "Platform",
+        "position": {
+          "x": 12.275121688843,
+          "y": 2.2999997138977,
+          "z": -21.26099395752
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -6.9615236952814e-07,
+          "y": -111.99997711182,
+          "z": 7.3168195058315e-08
+        },
+        "scale": {
+          "x": 4.1,
+          "y": 2,
+          "z": 13
+        },
+        "size": {
+          "x": 4.1,
+          "y": 2,
+          "z": 13
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "batchType": "Dynamic",
+        "btsKey": "37acb5cf-0c53-41c7-9023-01a645afc4c7",
+        "componentList": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676173354388652033",
+            "name": "Platform",
+            "position": {
+              "x": -24.0371,
+              "y": 2.3,
+              "z": -9.44178
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -6.99985e-07,
+              "y": -106.8
+            },
+            "scale": {
+              "x": 5,
+              "y": 2,
+              "z": 6.54999
+            },
+            "size": {
+              "x": 5,
+              "y": 2,
+              "z": 6.54999
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "booleanOperation": 2,
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676173354391027713",
+            "name": "Platform",
+            "position": {
+              "x": -23.5971,
+              "y": 3.0745,
+              "z": -10.2693
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 1.89822e-05,
+              "y": -106.8,
+              "z": 25
+            },
+            "scale": {
+              "x": 6.01912,
+              "y": 2.34118,
+              "z": 6.99997
+            },
+            "size": {
+              "x": 6.01912,
+              "y": 2.34118,
+              "z": 6.99997
+            },
+            "useAnchor": true
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8676173354388013057",
+        "material": {
+          "color": {
+            "g": 133,
+            "r": 94
+          },
+          "discardAlpha": 1
+        },
+        "mergeShapesDataKey": "8675089292735561729",
+        "name": "Floor",
+        "position": {
+          "x": 4.1071119308472,
+          "y": 2.2999997138977,
+          "z": -25.47554397583
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -6.9998623075662e-07,
+          "y": -13.200028419495
+        },
+        "scale": {
+          "x": 5,
+          "y": 2,
+          "z": 6.54999
+        },
+        "size": {
+          "x": 5,
+          "y": 2,
+          "z": 6.54999
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "a6301ecd-514d-4382-874b-f50e247764f1",
+        "cameraCollideEnable": false,
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalImageType": "2",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/floor_21.png"
+            },
+            "decalTiling": {
+              "x": 1,
+              "y": 5
+            },
+            "id": "8676173354395631617"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8676173354395238401",
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 85
+          },
+          "discardAlpha": 1
+        },
+        "name": "Platform",
+        "position": {
+          "x": 3.868558883667,
+          "y": 2.259369134903,
+          "z": -25.560359954834
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 1.9429144231253e-05,
+          "y": -13.200024604797,
+          "z": 24.999887466431
+        },
+        "scale": {
+          "x": 5,
+          "y": 0.2,
+          "z": 6.7
+        },
+        "size": {
+          "x": 5,
+          "y": 0.2,
+          "z": 6.7
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "a6301ecd-514d-4382-874b-f50e247764f1",
+        "cameraCollideEnable": false,
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalImageType": "2",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/floor_21.png"
+            },
+            "decalTiling": {
+              "x": 1,
+              "y": 5
+            },
+            "id": "8676173354398957569"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8676173354398564353",
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 85
+          },
+          "discardAlpha": 1
+        },
+        "name": "Platform",
+        "position": {
+          "x": 20.20178604126,
+          "y": 2.259369134903,
+          "z": -16.130380630493
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 1.8504026229493e-05,
+          "y": 133.20002746582,
+          "z": 24.999889373779
+        },
+        "scale": {
+          "x": 5,
+          "y": 0.2,
+          "z": 6.7
+        },
+        "size": {
+          "x": 5,
+          "y": 0.2,
+          "z": 6.7
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "6984f2e1-dcc3-4858-9ec1-37b6e8e0b092",
+        "cameraCollideEnable": false,
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_01_blue_3d.effect"
+            },
+            "id": "8677381851879686145",
+            "position": {
+              "x": -3.44,
+              "y": 4.9,
+              "z": 25.8
+            },
+            "rotation": {
+              "y": -7.40002
+            },
+            "scale": {
+              "x": 3.79296,
+              "y": 4.49999,
+              "z": 0.999998
+            },
+            "size": {
+              "x": 9.1999979019165,
+              "y": 4.49998998641968,
+              "z": 0.999997973442078
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_01_blue_3d.effect"
+            },
+            "id": "8677389084887072769",
+            "position": {
+              "x": -9.99,
+              "y": 4.9,
+              "z": 24.04
+            },
+            "rotation": {
+              "y": -22.5004
+            },
+            "scale": {
+              "x": 3.79296,
+              "y": 4.49998,
+              "z": 0.999993
+            },
+            "size": {
+              "x": 9.1999979019165,
+              "y": 4.49997997283936,
+              "z": 0.999993026256561
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_01_blue_3d.effect"
+            },
+            "id": "8677506889968304129",
+            "position": {
+              "x": -15.86,
+              "y": 4.9,
+              "z": 20.64
+            },
+            "rotation": {
+              "y": -37.5005
+            },
+            "scale": {
+              "x": 3.79296,
+              "y": 4.5,
+              "z": 0.999992
+            },
+            "size": {
+              "x": 9.1999979019165,
+              "y": 4.5,
+              "z": 0.9999920129776
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_01_blue_3d.effect"
+            },
+            "id": "8677511390776410113",
+            "position": {
+              "x": -20.64,
+              "y": 4.9,
+              "z": 15.86
+            },
+            "rotation": {
+              "y": -52.5002
+            },
+            "scale": {
+              "x": 3.79296,
+              "y": 4.5,
+              "z": 0.999977
+            },
+            "size": {
+              "x": 9.1999979019165,
+              "y": 4.5,
+              "z": 0.999976992607117
+            }
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677381347363684353",
+        "material": {
+          "alpha": 0,
+          "discardAlpha": 1
+        },
+        "name": "EffectPart",
+        "position": {
+          "y": 6
+        },
+        "restitution": 0.3,
+        "scale": {
+          "y": 0.1
+        },
+        "size": {
+          "y": 0.1
+        },
+        "useAnchor": true,
+        "useCollide": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "a272117b-0f0b-4a32-b872-a1df8f358cef",
+        "cameraCollideEnable": false,
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_01_blue_3d.effect"
+            },
+            "id": "8677530989991247873",
+            "position": {
+              "x": -20.623455047607,
+              "y": 4.8999772071838,
+              "z": -15.87912940979
+            },
+            "rotation": {
+              "y": -127.40001678467
+            },
+            "scale": {
+              "x": 3.79296,
+              "y": 4.49999,
+              "z": 0.999998
+            },
+            "size": {
+              "x": 9.1999979019165,
+              "y": 4.49998998641968,
+              "z": 0.999997973442078
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_01_blue_3d.effect"
+            },
+            "id": "8677530989992820737",
+            "position": {
+              "x": -15.824251174927,
+              "y": 4.8999772071838,
+              "z": -20.6715965271
+            },
+            "rotation": {
+              "y": -142.50039672852
+            },
+            "scale": {
+              "x": 3.79296,
+              "y": 4.49998,
+              "z": 0.999993
+            },
+            "size": {
+              "x": 9.1999979019165,
+              "y": 4.49997997283936,
+              "z": 0.999993026256561
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_01_blue_3d.effect"
+            },
+            "id": "8677530989994409985",
+            "position": {
+              "x": -9.9447631835938,
+              "y": 4.8999772071838,
+              "z": -24.055164337158
+            },
+            "rotation": {
+              "y": -157.50047302246
+            },
+            "scale": {
+              "x": 3.79296,
+              "y": 4.5,
+              "z": 0.999992
+            },
+            "size": {
+              "x": 9.1999979019165,
+              "y": 4.5,
+              "z": 0.9999920129776
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_01_blue_3d.effect"
+            },
+            "id": "8677530989995950081",
+            "position": {
+              "x": -3.4151620864868,
+              "y": 4.8999772071838,
+              "z": -25.804765701294
+            },
+            "rotation": {
+              "y": -172.50018310547
+            },
+            "scale": {
+              "x": 3.79296,
+              "y": 4.5,
+              "z": 0.999977
+            },
+            "size": {
+              "x": 9.1999979019165,
+              "y": 4.5,
+              "z": 0.999976992607117
+            }
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677530989990707201",
+        "material": {
+          "alpha": 0,
+          "discardAlpha": 1
+        },
+        "name": "EffectPart",
+        "position": {
+          "y": 6
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -120
+        },
+        "scale": {
+          "y": 0.1
+        },
+        "size": {
+          "y": 0.1
+        },
+        "useAnchor": true,
+        "useCollide": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "9fb53fc2-8d4c-40d3-9e14-99d0774b83c9",
+        "cameraCollideEnable": false,
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_01_blue_3d.effect"
+            },
+            "id": "8677531485081255937",
+            "position": {
+              "x": 24.063488006592,
+              "y": 4.8999948501587,
+              "z": -9.9208526611328
+            },
+            "rotation": {
+              "y": 112.59985351563
+            },
+            "scale": {
+              "x": 3.79296,
+              "y": 4.49999,
+              "z": 0.999998
+            },
+            "size": {
+              "x": 9.1999979019165,
+              "y": 4.49998998641968,
+              "z": 0.999997973442078
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_01_blue_3d.effect"
+            },
+            "id": "8677531485083009025",
+            "position": {
+              "x": 25.814233779907,
+              "y": 4.8999948501587,
+              "z": -3.3683729171753
+            },
+            "rotation": {
+              "y": 97.499526977539
+            },
+            "scale": {
+              "x": 3.79296,
+              "y": 4.49998,
+              "z": 0.999993
+            },
+            "size": {
+              "x": 9.1999979019165,
+              "y": 4.49997997283936,
+              "z": 0.999993026256561
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_01_blue_3d.effect"
+            },
+            "id": "8677531485084712961",
+            "position": {
+              "x": 25.804727554321,
+              "y": 4.8999948501587,
+              "z": 3.415228843689
+            },
+            "rotation": {
+              "y": 82.499458312988
+            },
+            "scale": {
+              "x": 3.79296,
+              "y": 4.5,
+              "z": 0.999992
+            },
+            "size": {
+              "x": 9.1999979019165,
+              "y": 4.5,
+              "z": 0.9999920129776
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/Effects/music/215chdcg_music_01_blue_3d.effect"
+            },
+            "id": "8677531485086400513",
+            "position": {
+              "x": 24.05513381958,
+              "y": 4.8999948501587,
+              "z": 9.9448146820068
+            },
+            "rotation": {
+              "y": 67.49974822998
+            },
+            "scale": {
+              "x": 3.79296,
+              "y": 4.5,
+              "z": 0.999977
+            },
+            "size": {
+              "x": 9.1999979019165,
+              "y": 4.5,
+              "z": 0.999976992607117
+            }
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8677531485080600577",
+        "material": {
+          "alpha": 0,
+          "discardAlpha": 1
+        },
+        "name": "EffectPart",
+        "position": {
+          "y": 6
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 119.99998474121
+        },
+        "scale": {
+          "y": 0.1
+        },
+        "size": {
+          "y": 0.1
+        },
+        "useAnchor": true,
+        "useCollide": false
+      }
+    ],
+    "name": {
+      "value": "map_map002"
+    },
+    "rotateSpeed": 1,
+    "touch_pos": {
+      "up": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "82824bd7599ab0b922e05ee5b07c1a34"
+    },
+    "VERSION": "0.23"
+  }
+}
