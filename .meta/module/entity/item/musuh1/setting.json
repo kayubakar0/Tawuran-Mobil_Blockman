@@ -1,0 +1,68 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Orange-White Car/A Camouflage Car.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "chaseDistance": 18,
+      "enable": true,
+      "skillList": [
+        {
+          "fullName": "myplugin/tabrak"
+        }
+      ],
+      "targetType": "any"
+    },
+    "AI_home": {
+      "homeSize": 20
+    },
+    "AI_patrol": {
+      "patrolDistance": 10,
+      "patrolMode": "randomPath"
+    },
+    "canJump": false,
+    "enableAI": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "maxHp": 50,
+    "moveSpeed": 10,
+    "name": {
+      "value": "entity_musuh1"
+    },
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "351c4dfb-5784-4884-8876-897d90f21104"
+            },
+            "type": "Trigger_EntityEnter"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "45f1e231-c51a-41a0-bf1f-dd3861e0b7b6"
+            }
+          },
+          "type": "Trigger_EntityEnter"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "48d65436836be01c2a097aefcc2198f0",
+      "triggers.bts": "b6bc7ed29d33f0b4ea3afe435c1494f4"
+    },
+    "VERSION": "0.23"
+  }
+}

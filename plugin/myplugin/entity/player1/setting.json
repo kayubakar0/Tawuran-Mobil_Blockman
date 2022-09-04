@@ -1,6 +1,8 @@
 {
   "_clientScript": [],
   "_serverScript": [],
+  "actorGirlName": "empty.actor",
+  "actorName": "asset/Actor/Orange-White Car/A Camouflage Car.actor",
   "aiFixSpeedRate": 2,
   "attackNpc": false,
   "autoAttack": false,
@@ -18,7 +20,7 @@
   "boundingScaleWithSize": true,
   "canClick": false,
   "canHurtMove": true,
-  "canJump": true,
+  "canJump": false,
   "canMove": true,
   "canPickOnDie": false,
   "canTurnHead": true,
@@ -44,7 +46,7 @@
     "type": "Capsule"
   },
   "collision": false,
-  "damage": 0,
+  "damage": 10,
   "damageViewBobbing": [
     {
       "count": 2,
@@ -98,18 +100,18 @@
     10,
     30
   ],
-  "ignorePlayerSkin": false,
+  "ignorePlayerSkin": true,
   "isAIGoHomePos": true,
   "isPlayer": true,
   "jumpHeight": 0.6,
   "jumpSpeed": 0.6,
-  "maxHp": 1,
+  "maxHp": 100,
   "maxVisualAngle": 360,
   "meetCliffBackRun": true,
-  "modelType": "System",
+  "modelType": "Customize",
   "moveAcc": 0.2,
   "moveFactor": 1,
-  "moveSpeed": 0.19,
+  "moveSpeed": 0.5,
   "name": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d",
   "needCheckTouch": true,
   "patrolDistance": 5,
@@ -120,7 +122,9 @@
   "reachDistance": 6.5,
   "reviveTime": 0,
   "setFollowWhenCreate": true,
-  "skillInfos": [],
+  "skillInfos": [
+    "myplugin/tabrak"
+  ],
   "stepHeight": 0.6,
   "textHeight": 2.3,
   "touchdownTimeToDie": true,

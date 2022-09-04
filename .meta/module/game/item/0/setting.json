@@ -11,11 +11,11 @@
       }
     },
     "initPos": {
-      "map": "map002",
+      "map": "map001",
       "pos": {
-        "x": -50,
-        "y": 106,
-        "z": -100
+        "x": 31.062,
+        "y": 3.548,
+        "z": 12.572
       }
     },
     "nowTime": {
@@ -27,12 +27,15 @@
       "min": 1
     },
     "startPos": {
-      "map": "map002",
+      "map": "map001",
       "pos": {
-        "x": -50,
-        "y": 106,
-        "z": -100
+        "x": 24.405,
+        "y": 3.59279159545898,
+        "z": 13.1131534576416
       }
+    },
+    "team": {
+      "automatch": true
     },
     "ui_enable": {
       "appMainRole": false,
@@ -43,7 +46,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "3653d1a1234efbaa2567abb16f26a0a9",
+      "setting.json": "100dc0c9f0dba96b5343c2bbec9724f6",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "",
       "triggers_client.bts": ""

@@ -1,0 +1,41 @@
+{
+  "data": {
+    "name": {
+      "value": "Damage_car"
+    },
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "6b3f7672-2ea9-4837-998c-d805e1032617"
+            },
+            "type": "Function_Called"
+          },
+          "func_name": "Damage_car",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "83b22032-0f55-46df-82db-b8eba278d347"
+            }
+          },
+          "type": "Function_Called"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "32624dacd10d6930d4a7e2e6aa788d72",
+      "triggers.bts": "d5205d389973c024b3452df8f408028b"
+    },
+    "VERSION": "0.23"
+  }
+}

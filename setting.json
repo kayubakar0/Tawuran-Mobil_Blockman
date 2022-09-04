@@ -1,6 +1,6 @@
 {
   "areaLightSize": 1,
-  "automatch": false,
+  "automatch": true,
   "bagCap": 9,
   "batchType": "Dynamic",
   "cameraCfg": {
@@ -73,7 +73,7 @@
   "collisionMatrix": [
     "1"
   ],
-  "defaultMap": "map002",
+  "defaultMap": "map001",
   "defaultQualityLevel": 2,
   "dragControlConfig": {
     "useDragControl": true
@@ -97,10 +97,10 @@
   "hideTeamStatusBar": false,
   "ignoreEmptyStartPos": false,
   "initPos": {
-    "map": "map002",
-    "x": -50,
-    "y": 106,
-    "z": -100
+    "map": "map001",
+    "x": 31.062,
+    "y": 3.548,
+    "z": 12.572
   },
   "isTimeStopped": true,
   "jumpControlConfig": {
@@ -239,10 +239,10 @@
   "spotLightSize": 1,
   "startPos": [
     {
-      "map": "map002",
-      "x": -50,
-      "y": 106,
-      "z": -100
+      "map": "map001",
+      "x": 24.405,
+      "y": 3.59279159545898,
+      "z": 13.1131534576416
     }
   ],
   "team": [],
