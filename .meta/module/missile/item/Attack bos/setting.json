@@ -1,0 +1,150 @@
+{
+  "data": {
+    "boundingVolume": {
+      "height": 1.8550179414451,
+      "radius": 4.3004468679428,
+      "size": {
+        "x": 1.3371289521456,
+        "y": 1.0550179593265,
+        "z": 2.8633179664612
+      }
+    },
+    "boundingVolumeMissileCfg": {
+      "height": 1.85501794144508,
+      "memory": {
+        "Capsule": "1.000000-0.500000"
+      },
+      "radius": 4.3004468679428,
+      "size": {
+        "x": 1.33712895214558,
+        "y": 1.05501795932651,
+        "z": 2.86331796646118
+      }
+    },
+    "hitCount": {
+      "hitEntityCount": 1
+    },
+    "hitEntityEffect": {
+      "effect": {
+        "asset": "asset/effect/Orange Cloud Explosion Effect/gp202_explodables_01_red_3d.effect"
+      }
+    },
+    "hitEntitySound": {
+      "sound": {
+        "asset": "asset/mixkit-bomb-explosion-in-battle-2800.mp3"
+      }
+    },
+    "lifeTime": {
+      "value": 400
+    },
+    "missileModel": {
+      "modelMesh": {
+        "asset": "asset/Mesh/Brown Scrapped Car/g2037_brokencar_1.mesh"
+      },
+      "type": "mesh"
+    },
+    "moveAcc": 3,
+    "moveSpeed": 15,
+    "name": {
+      "value": "missile_Attack bos"
+    },
+    "startSound": {
+      "sound": {
+        "asset": "asset/mixkit-bomb-explosion-in-battle-2800.mp3"
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Damage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "9561b396-aa49-4e35-ac8b-d30993d311ab"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 45
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "e58d03e4-b501-4472-8a1e-c2f8478e9da1"
+              },
+              "pos": {
+                "x": 750,
+                "y": 326
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "9561b396-aa49-4e35-ac8b-d30993d311ab"
+              },
+              "pos": {
+                "x": 1234,
+                "y": 217
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "bf955f9d-1637-4487-a728-7158e0e07697"
+            },
+            "type": "Trigger_MissileHitEntity"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "e58d03e4-b501-4472-8a1e-c2f8478e9da1"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "58e3ac5a-a116-4b1e-92ee-9d7c74a70701"
+            }
+          },
+          "type": "Trigger_MissileHitEntity"
+        }
+      ]
+    },
+    "vanishEffect": {
+      "effect": {
+        "asset": "asset/effect/Light Pillar Explosion Effect/gfxy207_explosion_orange beam _3d.effect"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8a5f3dda3866f4f2b762a20d46489037",
+      "triggers.bts": "1694ac00f1d8fbbbc1b6cede19a61c00"
+    },
+    "VERSION": "0.24"
+  }
+}

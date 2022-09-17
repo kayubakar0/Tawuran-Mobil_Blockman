@@ -4,22 +4,28 @@
       "base": {
         "__OBJ_TYPE": "SkyBoxStatic",
         "back": {
-          "asset": "asset/Texture/SkyBox/day01_font.png"
+          "asset": "asset/Texture/SkyBox/Night/Sky03_back.png",
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_back.png"
         },
         "bottom": {
-          "asset": "asset/Texture/SkyBox/day01_down.png"
+          "asset": "asset/Texture/SkyBox/Night/Sky03_bottom.png",
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_bottom.png"
         },
         "front": {
-          "asset": "asset/Texture/SkyBox/day01_back.png"
+          "asset": "asset/Texture/SkyBox/Night/Sky03_front.png",
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_front.png"
         },
         "left": {
-          "asset": "asset/Texture/SkyBox/day01_right.png"
+          "asset": "asset/Texture/SkyBox/Night/Sky03_left.png",
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_left.png"
         },
         "right": {
-          "asset": "asset/Texture/SkyBox/day01_left.png"
+          "asset": "asset/Texture/SkyBox/Night/Sky03_right.png",
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_right.png"
         },
         "top": {
-          "asset": "asset/Texture/SkyBox/day01_up.png"
+          "asset": "asset/Texture/SkyBox/Night/Sky03_top.png",
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_top.png"
         }
       }
     },
@@ -32,234 +38,1201 @@
       {
         "__OBJ_TYPE": "Instance_Light",
         "batchType": "Dynamic",
-        "id": "8681982650025738241",
-        "ID": 1,
-        "lightBrightness": 0.8,
+        "id": "8636598139055390721",
         "lightType": "GlobalLight",
         "name": "EnvironmentLight",
         "skyColor": {
-          "b": 176,
-          "g": 186,
-          "r": 215
+          "b": 205,
+          "g": 205,
+          "r": 205
         },
         "skyLineColor": {
-          "b": 186,
-          "g": 147,
-          "r": 194
+          "b": 203,
+          "g": 203,
+          "r": 203
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8793970323632685057",
+        "ID": 3,
+        "lightBrightness": 0.76,
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "y": 5
+        },
+        "rotation": {
+          "y": -90
         }
       },
       {
         "__OBJ_TYPE": "Instance_Light",
         "batchType": "Dynamic",
-        "id": "8690010808041226241",
-        "ID": 2,
-        "lightColor": {
-          "b": 125,
-          "g": 143,
-          "r": 174
-        },
-        "lightType": "DirectionalLight",
-        "name": "DirectionalLight",
+        "id": "8636598139123630081",
+        "lightAngle": 90,
+        "lightBrightness": 0.3,
+        "lightRange": 60,
+        "lightType": "AreaLight",
+        "name": "AreaLight",
         "position": {
-          "y": 73.414024353027
-        },
-        "rotation": {
-          "y": -45,
-          "z": -36
+          "x": 9.52100086212158,
+          "y": 59.9908065795898,
+          "z": 39.4419784545898
         },
         "shadows": {
           "shadowsType": "hard"
-        },
-        "skyColor": {
-          "b": 143,
-          "g": 133
-        },
-        "skyLineColor": {
-          "g": 62,
-          "r": 62
         }
       },
       {
-        "__OBJ_TYPE": "Instance_Part",
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "anchorPoint": {
+              "x": -59.1523094177246,
+              "y": 1.0801854133606,
+              "z": 20.7944793701172
+            },
+            "btsKey": "442be089-0603-4ed2-8d21-c0e263a18a33",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8792546500277420033",
+            "massCenter": {
+              "x": -59.1523094177246,
+              "y": 1.0801854133606,
+              "z": 20.7944793701172
+            },
+            "mesh": "asset/Mesh/Gray Arched Stone Bridge/g2044_7080_bridge01.mesh",
+            "mesh_selector": {
+              "asset": "asset/Mesh/Gray Arched Stone Bridge/g2044_7080_bridge01.mesh",
+              "selector": "asset/Mesh/Gray Arched Stone Bridge/g2044_7080_bridge01.mesh"
+            },
+            "name": "g2044_7080_bridge01.mesh",
+            "position": {
+              "x": -59.1523094177246,
+              "y": 1.0801854133606,
+              "z": 20.7944793701172
+            },
+            "restitution": 0.3,
+            "size": {
+              "x": 19.1291980743408,
+              "y": 5.20532751083374,
+              "z": 10.7243156433105
+            },
+            "staticBatchNo": "1",
+            "staticObject": true,
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "anchorPoint": {
+              "x": -86.2316589355469,
+              "z": 20.5082530975342
+            },
+            "btsKey": "b0bd8034-7caa-4075-b4b4-ed60f8a312dd",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_MeshPart",
+                "anchorPoint": {
+                  "x": -86.5156860351562,
+                  "y": 3.00000023841858,
+                  "z": 20.6750087738037
+                },
+                "btsKey": "876865ed-5eb6-4192-a95e-c88dd3ad3ae3",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8792549493886550017",
+                "massCenter": {
+                  "x": -86.5156860351562,
+                  "y": 3.00000023841858,
+                  "z": 20.6750087738037
+                },
+                "mesh": "asset/Mesh/Purple Square Area/g2047_4_21_qiang.mesh",
+                "mesh_selector": {
+                  "asset": "asset/Mesh/Purple Square Area/g2047_4_21_qiang.mesh",
+                  "selector": "asset/Mesh/Purple Square Area/g2047_4_21_qiang.mesh"
+                },
+                "name": "g2047_4_21_qiang.mesh",
+                "position": {
+                  "x": -86.5156860351562,
+                  "y": 3.00000023841858,
+                  "z": 20.6750087738037
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 1.82378,
+                  "y": 1.82378,
+                  "z": 1.82378
+                },
+                "size": {
+                  "x": 40,
+                  "y": 5.94635725021362,
+                  "z": 39.9999961853027
+                },
+                "staticObject": true,
+                "useAnchor": true,
+                "useGravity": false
+              },
+              {
+                "__OBJ_TYPE": "Instance_MeshPart",
+                "anchorPoint": {
+                  "x": -86.3786010742188,
+                  "y": 3.00000023841858,
+                  "z": 20.9531745910645
+                },
+                "btsKey": "a3c233b1-0337-4cc1-8693-c98215ba8f30",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8792550457144967169",
+                "massCenter": {
+                  "x": -86.3786010742188,
+                  "y": 3.00000023841858,
+                  "z": 20.9531745910645
+                },
+                "mesh": "asset/Mesh/Purple Square Area/g2047_4_21_boli.mesh",
+                "mesh_selector": {
+                  "asset": "asset/Mesh/Purple Square Area/g2047_4_21_boli.mesh",
+                  "selector": "asset/Mesh/Purple Square Area/g2047_4_21_boli.mesh"
+                },
+                "name": "g2047_4_21_boli.mesh",
+                "position": {
+                  "x": -86.3786010742188,
+                  "y": 3.00000023841858,
+                  "z": 20.9531745910645
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 1.83831,
+                  "y": 1.83831,
+                  "z": 1.83831
+                },
+                "size": {
+                  "x": 40,
+                  "y": 2.06102776527405,
+                  "z": 39.9999923706055
+                },
+                "staticBatchNo": "1",
+                "staticObject": true,
+                "useAnchor": true,
+                "useGravity": false
+              },
+              {
+                "__OBJ_TYPE": "Instance_MeshPart",
+                "anchorPoint": {
+                  "x": -84.0430145263672,
+                  "y": 2.90253019332886,
+                  "z": 40.2737426757812
+                },
+                "btsKey": "6dda4e2c-d142-4166-bc75-d769d7917219",
+                "children": [
+                  {
+                    "__OBJ_TYPE": "Instance_MeshPart",
+                    "anchorPoint": {
+                      "x": -89.1111450195312,
+                      "y": 2.89952349662781,
+                      "z": 40.2185516357422
+                    },
+                    "btsKey": "96d03569-9f1f-455f-b08b-904855d3c1bf",
+                    "density": 2.2,
+                    "friction": 0.37,
+                    "id": "8792569744235282433",
+                    "massCenter": {
+                      "x": -89.1111450195312,
+                      "y": 2.89952349662781,
+                      "z": 40.2185516357422
+                    },
+                    "mesh": "asset/Mesh/White Double Sliding Door/g2035_building_policehouse_r_1.mesh",
+                    "mesh_selector": {
+                      "asset": "asset/Mesh/White Double Sliding Door/g2035_building_policehouse_r_1.mesh",
+                      "selector": "asset/Mesh/White Double Sliding Door/g2035_building_policehouse_r_1.mesh"
+                    },
+                    "name": "Door",
+                    "position": {
+                      "x": -89.1111450195312,
+                      "y": 2.89952349662781,
+                      "z": 40.2185516357422
+                    },
+                    "restitution": 0.3,
+                    "rotation": {
+                      "y": -179.999984741211
+                    },
+                    "scale": {
+                      "x": 2.83468,
+                      "y": 2.83468,
+                      "z": 2.83468
+                    },
+                    "size": {
+                      "x": 5,
+                      "y": 7.31619310379028,
+                      "z": 2.04993391036987
+                    },
+                    "staticBatchNo": "1",
+                    "staticObject": true,
+                    "useAnchor": true,
+                    "useGravity": false
+                  }
+                ],
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8792569744247783425",
+                "massCenter": {
+                  "x": -84.0430145263672,
+                  "y": 2.90253019332886,
+                  "z": 40.2737426757812
+                },
+                "mesh": "asset/Mesh/White Double Sliding Door/g2035_building_policehouse_r_1.mesh",
+                "mesh_selector": {
+                  "asset": "asset/Mesh/White Double Sliding Door/g2035_building_policehouse_r_1.mesh",
+                  "selector": "asset/Mesh/White Double Sliding Door/g2035_building_policehouse_r_1.mesh"
+                },
+                "name": "Door",
+                "position": {
+                  "x": -84.0430145263672,
+                  "y": 2.90253019332886,
+                  "z": 40.2737426757812
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 2.83468,
+                  "y": 2.83468,
+                  "z": 2.83468
+                },
+                "size": {
+                  "x": 5,
+                  "y": 7.31619834899902,
+                  "z": 2.04993367195129
+                },
+                "staticBatchNo": "1",
+                "staticObject": true,
+                "useAnchor": true,
+                "useGravity": false
+              },
+              {
+                "__OBJ_TYPE": "Instance_MeshPart",
+                "anchorPoint": {
+                  "x": -105.488998413086,
+                  "y": 2.90253019332886,
+                  "z": 18.4807186126709
+                },
+                "btsKey": "02b80dbc-f25f-40db-b077-5b69a697d68a",
+                "children": [
+                  {
+                    "__OBJ_TYPE": "Instance_MeshPart",
+                    "anchorPoint": {
+                      "x": -105.544189453125,
+                      "y": 2.89952349662781,
+                      "z": 23.5488510131836
+                    },
+                    "btsKey": "96d03569-9f1f-455f-b08b-904855d3c1bf",
+                    "density": 2.2,
+                    "friction": 0.37,
+                    "id": "8792570172273819649",
+                    "massCenter": {
+                      "x": -105.544189453125,
+                      "y": 2.89952349662781,
+                      "z": 23.5488510131836
+                    },
+                    "mesh": "asset/Mesh/White Double Sliding Door/g2035_building_policehouse_r_1.mesh",
+                    "mesh_selector": {
+                      "asset": "asset/Mesh/White Double Sliding Door/g2035_building_policehouse_r_1.mesh",
+                      "selector": "asset/Mesh/White Double Sliding Door/g2035_building_policehouse_r_1.mesh"
+                    },
+                    "name": "Door",
+                    "position": {
+                      "x": -105.544189453125,
+                      "y": 2.89952349662781,
+                      "z": 23.5488510131836
+                    },
+                    "restitution": 0.3,
+                    "rotation": {
+                      "y": -89.9999847412109
+                    },
+                    "scale": {
+                      "x": 2.83468,
+                      "y": 2.83468,
+                      "z": 2.83468
+                    },
+                    "size": {
+                      "x": 5,
+                      "y": 7.31619310379028,
+                      "z": 2.04993391036987
+                    },
+                    "staticBatchNo": "1",
+                    "staticObject": true,
+                    "useAnchor": true,
+                    "useGravity": false
+                  }
+                ],
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8792570172286500865",
+                "massCenter": {
+                  "x": -105.488998413086,
+                  "y": 2.90253019332886,
+                  "z": 18.4807186126709
+                },
+                "mesh": "asset/Mesh/White Double Sliding Door/g2035_building_policehouse_r_1.mesh",
+                "mesh_selector": {
+                  "asset": "asset/Mesh/White Double Sliding Door/g2035_building_policehouse_r_1.mesh",
+                  "selector": "asset/Mesh/White Double Sliding Door/g2035_building_policehouse_r_1.mesh"
+                },
+                "name": "Door",
+                "position": {
+                  "x": -105.488998413086,
+                  "y": 2.90253019332886,
+                  "z": 18.4807186126709
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "y": 90
+                },
+                "scale": {
+                  "x": 2.83468,
+                  "y": 2.83468,
+                  "z": 2.83468
+                },
+                "size": {
+                  "x": 5,
+                  "y": 7.31619834899902,
+                  "z": 2.04993367195129
+                },
+                "staticBatchNo": "1",
+                "staticObject": true,
+                "useAnchor": true,
+                "useGravity": false
+              },
+              {
+                "__OBJ_TYPE": "Instance_MeshPart",
+                "anchorPoint": {
+                  "x": -84.0430145263672,
+                  "y": 2.90253019332886,
+                  "z": 1.53872203826904
+                },
+                "btsKey": "949c3026-3ae1-41fd-9706-2a1a6d284fe0",
+                "children": [
+                  {
+                    "__OBJ_TYPE": "Instance_MeshPart",
+                    "anchorPoint": {
+                      "x": -89.1111450195312,
+                      "y": 2.89952349662781,
+                      "z": 1.48353016376495
+                    },
+                    "btsKey": "96d03569-9f1f-455f-b08b-904855d3c1bf",
+                    "density": 2.2,
+                    "friction": 0.37,
+                    "id": "8792568042685513729",
+                    "massCenter": {
+                      "x": -89.1111450195312,
+                      "y": 2.89952349662781,
+                      "z": 1.48353016376495
+                    },
+                    "mesh": "asset/Mesh/White Double Sliding Door/g2035_building_policehouse_r_1.mesh",
+                    "mesh_selector": {
+                      "asset": "asset/Mesh/White Double Sliding Door/g2035_building_policehouse_r_1.mesh",
+                      "selector": "asset/Mesh/White Double Sliding Door/g2035_building_policehouse_r_1.mesh"
+                    },
+                    "name": "Door",
+                    "position": {
+                      "x": -89.1111450195312,
+                      "y": 2.89952349662781,
+                      "z": 1.48353016376495
+                    },
+                    "restitution": 0.3,
+                    "rotation": {
+                      "y": 180
+                    },
+                    "scale": {
+                      "x": 2.83468,
+                      "y": 2.83468,
+                      "z": 2.83468
+                    },
+                    "size": {
+                      "x": 5,
+                      "y": 7.31619310379028,
+                      "z": 2.04993391036987
+                    },
+                    "staticBatchNo": "1",
+                    "staticObject": true,
+                    "useAnchor": true,
+                    "useGravity": false
+                  }
+                ],
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8792566272014729217",
+                "massCenter": {
+                  "x": -84.0430145263672,
+                  "y": 2.90253019332886,
+                  "z": 1.53872203826904
+                },
+                "mesh": "asset/Mesh/White Double Sliding Door/g2035_building_policehouse_r_1.mesh",
+                "mesh_selector": {
+                  "asset": "asset/Mesh/White Double Sliding Door/g2035_building_policehouse_r_1.mesh",
+                  "selector": "asset/Mesh/White Double Sliding Door/g2035_building_policehouse_r_1.mesh"
+                },
+                "name": "Door",
+                "position": {
+                  "x": -84.0430145263672,
+                  "y": 2.90253019332886,
+                  "z": 1.53872203826904
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 2.83468,
+                  "y": 2.83468,
+                  "z": 2.83468
+                },
+                "size": {
+                  "x": 5,
+                  "y": 7.31619834899902,
+                  "z": 2.04993367195129
+                },
+                "staticBatchNo": "1",
+                "staticObject": true,
+                "useAnchor": true,
+                "useGravity": false
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8792548044842008577",
+            "massCenter": {
+              "x": -86.2316589355469,
+              "z": 20.5082530975342
+            },
+            "mesh": "asset/Mesh/Purple Square Area/g2047_4_21_dimian.mesh",
+            "mesh_selector": {
+              "asset": "asset/Mesh/Purple Square Area/g2047_4_21_dimian.mesh",
+              "selector": "asset/Mesh/Purple Square Area/g2047_4_21_dimian.mesh"
+            },
+            "name": "Arena Pink",
+            "position": {
+              "x": -86.2316589355469,
+              "z": 20.5082530975342
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 1.88679,
+              "y": 1.88679,
+              "z": 1.88679
+            },
+            "size": {
+              "x": 40,
+              "y": 0.377358496189117,
+              "z": 40
+            },
+            "staticObject": true,
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "anchorPoint": {
+              "x": -23.0335083007812,
+              "z": 11.4114589691162
+            },
+            "btsKey": "41eac0ef-f0cd-4c03-927a-e4aa6c8fb266",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_MeshPart",
+                "anchorPoint": {
+                  "x": -23.0335083007812,
+                  "z": 71.0224685668945
+                },
+                "btsKey": "9deae484-6bbb-4b52-8fdf-b676413ffbc4",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8793734703237840897",
+                "massCenter": {
+                  "x": -23.0335083007812,
+                  "z": 71.0224685668945
+                },
+                "mesh": "asset/Mesh/Green Square Area/g2047_3_45_dimian.mesh",
+                "mesh_selector": {
+                  "asset": "asset/Mesh/Green Square Area/g2047_3_45_dimian.mesh",
+                  "selector": "asset/Mesh/Green Square Area/g2047_3_45_dimian.mesh"
+                },
+                "name": "Arena hijau",
+                "position": {
+                  "x": -23.0335083007812,
+                  "z": 71.0224685668945
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 1.32954,
+                  "y": 1.32954,
+                  "z": 1.32954
+                },
+                "size": {
+                  "x": 60,
+                  "y": 0.26590895652771,
+                  "z": 60
+                },
+                "staticBatchNo": "1",
+                "staticObject": true,
+                "useAnchor": true,
+                "useGravity": false
+              },
+              {
+                "__OBJ_TYPE": "Instance_MeshPart",
+                "anchorPoint": {
+                  "x": 36.6394958496094,
+                  "z": 11.4114589691162
+                },
+                "btsKey": "2e619590-ae90-40c1-9bfb-2f6e0cf16bed",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8793734942946656257",
+                "massCenter": {
+                  "x": 36.6394958496094,
+                  "z": 11.4114589691162
+                },
+                "mesh": "asset/Mesh/Green Square Area/g2047_3_45_dimian.mesh",
+                "mesh_selector": {
+                  "asset": "asset/Mesh/Green Square Area/g2047_3_45_dimian.mesh",
+                  "selector": "asset/Mesh/Green Square Area/g2047_3_45_dimian.mesh"
+                },
+                "name": "Arena hijau",
+                "position": {
+                  "x": 36.6394958496094,
+                  "z": 11.4114589691162
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 1.32954,
+                  "y": 1.32954,
+                  "z": 1.32954
+                },
+                "size": {
+                  "x": 60,
+                  "y": 0.26590895652771,
+                  "z": 60
+                },
+                "staticBatchNo": "1",
+                "staticObject": true,
+                "useAnchor": true,
+                "useGravity": false
+              },
+              {
+                "__OBJ_TYPE": "Instance_MeshPart",
+                "anchorPoint": {
+                  "x": 36.6764945983887,
+                  "z": 71.0664825439453
+                },
+                "btsKey": "7945a716-385a-41f3-945e-b3a3f11769df",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8793735398321127425",
+                "massCenter": {
+                  "x": 36.6764945983887,
+                  "z": 71.0664825439453
+                },
+                "mesh": "asset/Mesh/Green Square Area/g2047_3_45_dimian.mesh",
+                "mesh_selector": {
+                  "asset": "asset/Mesh/Green Square Area/g2047_3_45_dimian.mesh",
+                  "selector": "asset/Mesh/Green Square Area/g2047_3_45_dimian.mesh"
+                },
+                "name": "Arena hijau",
+                "position": {
+                  "x": 36.6764945983887,
+                  "z": 71.0664825439453
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 1.32954,
+                  "y": 1.32954,
+                  "z": 1.32954
+                },
+                "size": {
+                  "x": 60,
+                  "y": 0.26590895652771,
+                  "z": 60
+                },
+                "staticBatchNo": "1",
+                "staticObject": true,
+                "useAnchor": true,
+                "useGravity": false
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8792522242854469633",
+            "massCenter": {
+              "x": -23.0335083007812,
+              "z": 11.4114589691162
+            },
+            "mesh": "asset/Mesh/Green Square Area/g2047_3_45_dimian.mesh",
+            "mesh_selector": {
+              "asset": "asset/Mesh/Green Square Area/g2047_3_45_dimian.mesh",
+              "selector": "asset/Mesh/Green Square Area/g2047_3_45_dimian.mesh"
+            },
+            "name": "Arena hijau",
+            "position": {
+              "x": -23.0335083007812,
+              "z": 11.4114589691162
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 1.32954,
+              "y": 1.32954,
+              "z": 1.32954
+            },
+            "size": {
+              "x": 60,
+              "y": 0.26590895652771,
+              "z": 60
+            },
+            "staticBatchNo": "1",
+            "staticObject": true,
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/dekorasi tengah",
+            "id": "8793978882137243649",
+            "name": "dekorasi tengah",
+            "position": {
+              "x": 7.39701509475708,
+              "y": 0.146000012755394,
+              "z": 41.0852241516113
+            }
+          }
+        ],
+        "id": "8792549011689259009",
+        "name": "Arena"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "0dce1d89-8696-40b8-b853-abbfb3cddf96",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8793754874508738561",
+            "massCenter": {
+              "x": 6.776207447052,
+              "y": 5.40700054168701,
+              "z": -18.0229206085205
+            },
+            "material": {
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": 6.776207447052,
+              "y": 5.40700054168701,
+              "z": -18.0229206085205
+            },
+            "restitution": 0.07,
+            "scale": {
+              "x": 119.147,
+              "y": 10.8139,
+              "z": 0.999971
+            },
+            "size": {
+              "x": 119.146591186523,
+              "y": 10.8139238357544,
+              "z": 0.999971270561218
+            },
+            "staticBatchNo": "auto_batch_0",
+            "staticObject": true,
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "0f14ee4e-e0e6-4875-90c7-264541491a9e",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8793756463444525057",
+            "massCenter": {
+              "x": 7.32413625717163,
+              "y": 5.40694856643677,
+              "z": 100.370407104492
+            },
+            "material": {
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": 7.32413625717163,
+              "y": 5.40694856643677,
+              "z": 100.370407104492
+            },
+            "restitution": 0.07,
+            "scale": {
+              "x": 119.147,
+              "y": 10.8139,
+              "z": 0.999971
+            },
+            "size": {
+              "x": 119.146591186523,
+              "y": 10.8139238357544,
+              "z": 0.999971270561218
+            },
+            "staticBatchNo": "auto_batch_0",
+            "staticObject": true,
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "c9666dd8-bc61-4f40-8521-6b71ca4bd325",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8793756515091857409",
+            "massCenter": {
+              "x": 66.4831085205078,
+              "y": 5.40694952011108,
+              "z": 40.7878379821777
+            },
+            "material": {
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": 66.4831085205078,
+              "y": 5.40694952011108,
+              "z": 40.7878379821777
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "y": -90
+            },
+            "scale": {
+              "x": 119.147,
+              "y": 10.8139,
+              "z": 0.999971
+            },
+            "size": {
+              "x": 119.146591186523,
+              "y": 10.8139238357544,
+              "z": 0.999971270561218
+            },
+            "staticBatchNo": "auto_batch_0",
+            "staticObject": true,
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "67fff2e6-531f-4146-9998-e753b70dcb66",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8793759255010689025",
+            "massCenter": {
+              "x": -52.289665222168,
+              "y": 22.1049556732178,
+              "z": 63.2037010192871
+            },
+            "material": {
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -52.289665222168,
+              "y": 22.1049556732178,
+              "z": 63.2037010192871
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "y": -90
+            },
+            "scale": {
+              "x": 75.1428,
+              "y": 44.2094,
+              "z": 0.999936
+            },
+            "size": {
+              "x": 75.1428375244141,
+              "y": 44.2094078063965,
+              "z": 0.999936401844025
+            },
+            "staticBatchNo": "auto_batch_0",
+            "staticObject": true,
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "24157756-6704-4ea2-b2a4-b9fccfabe7bd",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8793760441039110145",
+            "massCenter": {
+              "x": -52.3453674316406,
+              "y": 22.1188468933105,
+              "z": -1.01676535606384
+            },
+            "material": {
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -52.3453674316406,
+              "y": 22.1188468933105,
+              "z": -1.01676535606384
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "y": -90
+            },
+            "scale": {
+              "x": 34.5314,
+              "y": 44.2372,
+              "z": 0.999915
+            },
+            "size": {
+              "x": 34.5313911437988,
+              "y": 44.2372016906738,
+              "z": 0.99991512298584
+            },
+            "staticBatchNo": "auto_batch_0",
+            "staticObject": true,
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "af3403f3-53c4-4141-9cc5-db5cd50ebeba",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8793766818044903425",
+            "massCenter": {
+              "x": -52.3204383850098,
+              "y": 29.4284934997559,
+              "z": 17.6625347137451
+            },
+            "material": {
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -52.3204383850098,
+              "y": 29.4284934997559,
+              "z": 17.6625347137451
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "y": -90
+            },
+            "scale": {
+              "x": 69.5091,
+              "y": 29.6312,
+              "z": 0.999924
+            },
+            "size": {
+              "x": 69.5090560913086,
+              "y": 29.6311817169189,
+              "z": 0.999924421310425
+            },
+            "staticBatchNo": "auto_batch_0",
+            "staticObject": true,
+            "useAnchor": true,
+            "useGravity": false
+          }
+        ],
+        "id": "8793758880020692993",
+        "name": "Tembok"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "anchorPoint": {
+              "x": 23.1919384002686,
+              "y": 22.216588973999,
+              "z": 27.9820861816406
+            },
+            "btsKey": "04284b7c-6ebc-4582-ae9f-6e2b23d17d07",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8793762722871197697",
+            "massCenter": {
+              "x": 23.1919384002686,
+              "y": 22.216588973999,
+              "z": 27.9820861816406
+            },
+            "mesh": "asset/Mesh/High-Rise Buildings With Platform/g2047_2_45_zhuagnshi.mesh",
+            "mesh_selector": {
+              "asset": "asset/Mesh/High-Rise Buildings With Platform/g2047_2_45_zhuagnshi.mesh",
+              "selector": "asset/Mesh/High-Rise Buildings With Platform/g2047_2_45_zhuagnshi.mesh"
+            },
+            "name": "Kota",
+            "position": {
+              "x": 23.1919384002686,
+              "y": 22.216588973999,
+              "z": 27.9820861816406
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": -90
+            },
+            "scale": {
+              "x": 1.88276,
+              "y": 1.88276,
+              "z": 1.88276
+            },
+            "size": {
+              "x": 250,
+              "y": 104.363716125488,
+              "z": 207.130340576172
+            },
+            "staticObject": true,
+            "useAnchor": true,
+            "useGravity": false
+          }
+        ],
+        "id": "8793761226604691457",
+        "name": "Object luar"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Musuh",
+            "id": "8794002570840178689",
+            "name": "Musuh",
+            "position": {
+              "x": -5.39415550231934,
+              "y": 1.9073486328125e-06,
+              "z": 24.6628360748291
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Musuh",
+            "id": "8794018997110341633",
+            "name": "Musuh",
+            "position": {
+              "x": 38.4051208496094,
+              "y": -1.19209289550781e-07,
+              "z": 12.3103504180908
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Musuh",
+            "id": "8794019038716477441",
+            "name": "Musuh",
+            "position": {
+              "x": 43.9914093017578,
+              "y": 8.34465026855469e-07,
+              "z": 80.3040161132812
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Musuh",
+            "id": "8794019093913354241",
+            "name": "Musuh",
+            "position": {
+              "x": -36.930793762207,
+              "y": 9.5367431640625e-07,
+              "z": 62.5794105529785
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Musuh",
+            "id": "8794019191246733313",
+            "name": "Musuh",
+            "position": {
+              "x": 28.8575286865234,
+              "y": -1.19209289550781e-07,
+              "z": 76.1008605957031
+            }
+          }
+        ],
+        "id": "8804098671574040577",
+        "name": "Musuh"
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": 61.9167060852051,
+          "y": 0.356899976730347,
+          "z": 41.7345199584961
+        },
         "batchType": "Dynamic",
-        "btsKey": "cf459998-c7db-4cb6-b1b4-8826da3b3877",
-        "density": 2.5,
-        "friction": 0.28,
-        "id": "8788315604927676417",
+        "btsKey": "956771cf-966b-4e41-9e20-baeb83905588",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8804906076909420545",
         "massCenter": {
-          "x": -0.262689471244812,
-          "y": 11.924243927002,
-          "z": -63.5448455810547
+          "x": 61.9167060852051,
+          "y": 0.356899976730347,
+          "z": 41.7345199584961
         },
-        "material": {
-          "texture": "part_muban.tga"
+        "mesh": "asset/Mesh/Yellow Blue Round Base/g2047_hall_door.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Yellow Blue Round Base/g2047_hall_door.mesh",
+          "selector": "asset/Mesh/Yellow Blue Round Base/g2047_hall_door.mesh"
         },
+        "name": "g2047_hall_door.mesh",
         "position": {
-          "x": -0.262689471244812,
-          "y": 11.924243927002,
-          "z": -63.5448455810547
+          "x": 61.9167060852051,
+          "y": 0.356899976730347,
+          "z": 41.7345199584961
         },
-        "restitution": 0.2,
+        "restitution": 0.3,
         "scale": {
-          "x": 140.588,
-          "y": 17.7097,
-          "z": 0.999965
+          "x": 1.8572,
+          "y": 1.8572,
+          "z": 1.8572
         },
         "size": {
-          "x": 140.587982177734,
-          "y": 17.7097072601318,
-          "z": 0.999965310096741
+          "x": 7,
+          "y": 0.662832081317902,
+          "z": 6.99999189376831
+        },
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/7610fcae-43c6-4c2a-8e0f-bfff1e66e5f2",
+        "id": "8804908083598802945",
+        "position": {
+          "x": 62.0510139465332,
+          "y": 0.972815871238708,
+          "z": 41.4725914001465
+        },
+        "scale": {
+          "x": 4.64097,
+          "y": 1.15699,
+          "z": 6.56388
+        },
+        "size": {
+          "x": 4.64096975326538,
+          "y": 1.15699052810669,
+          "z": 6.56388235092163
         }
       },
       {
-        "__OBJ_TYPE": "Instance_Part",
-        "batchType": "Dynamic",
-        "btsKey": "f8aa62e6-bfd3-4792-9119-23b38b4dc0ad",
-        "density": 2.5,
-        "friction": 0.28,
-        "id": "8788316708097032193",
-        "massCenter": {
-          "x": -1.27640533447266,
-          "y": 12.5092716217041,
-          "z": 40.4217720031738
-        },
-        "material": {
-          "texture": "part_muban.tga"
-        },
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/senjata",
+        "id": "8804973823032426497",
         "position": {
-          "x": -1.27640533447266,
-          "y": 12.5092716217041,
-          "z": 40.4217720031738
-        },
-        "restitution": 0.2,
-        "scale": {
-          "x": 133.762,
-          "y": 17.7097,
-          "z": 0.999965
-        },
-        "size": {
-          "x": 133.76237487793,
-          "y": 17.7097091674805,
-          "z": 0.999965250492096
+          "x": -51.3254470825195,
+          "y": 15.5473327636719,
+          "z": 1.33653247356415
         }
       },
       {
-        "__OBJ_TYPE": "Instance_Part",
-        "batchType": "Dynamic",
-        "btsKey": "060d6764-ffd0-4eca-85c0-343e9eacc95a",
-        "density": 2.5,
-        "friction": 0.28,
-        "id": "8788316797205954561",
-        "massCenter": {
-          "x": -62.5777397155762,
-          "y": 12.2351007461548,
-          "z": -14.8135328292847
-        },
-        "material": {
-          "texture": "part_muban.tga"
-        },
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/senjata",
+        "id": "8804973845453979649",
         "position": {
-          "x": -62.5777397155762,
-          "y": 12.2351007461548,
-          "z": -14.8135328292847
-        },
-        "restitution": 0.2,
-        "rotation": {
-          "y": -90
-        },
-        "scale": {
-          "x": 135.27,
-          "y": 17.7097,
-          "z": 0.999969
-        },
-        "size": {
-          "x": 135.269821166992,
-          "y": 17.70973777771,
-          "z": 0.999968707561493
+          "x": -51.3254585266113,
+          "y": 13.7566938400269,
+          "z": 1.09283638000488
         }
       },
       {
-        "__OBJ_TYPE": "Instance_Part",
-        "batchType": "Dynamic",
-        "btsKey": "315d0c17-d291-4ae3-9d79-c86d756c1826",
-        "density": 2.5,
-        "friction": 0.28,
-        "id": "8788317676293062657",
-        "massCenter": {
-          "x": 62.928581237793,
-          "y": 11.818902015686,
-          "z": -4.40260982513428
-        },
-        "material": {
-          "texture": "part_muban.tga"
-        },
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/senjata",
+        "id": "8804973871119613953",
         "position": {
-          "x": 62.928581237793,
-          "y": 11.818902015686,
-          "z": -4.40260982513428
-        },
-        "restitution": 0.2,
-        "rotation": {
-          "y": -90
-        },
-        "scale": {
-          "x": 123.758,
-          "y": 17.7098,
-          "z": 0.999971
-        },
-        "size": {
-          "x": 123.757591247559,
-          "y": 17.7097969055176,
-          "z": 0.99997091293335
+          "x": -51.3253021240234,
+          "y": 15.1980171203613,
+          "z": 2.22356390953064
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/senjata",
+        "id": "8804973902618640385",
+        "position": {
+          "x": -53.3154029846191,
+          "y": 40.2249908447266,
+          "z": 31.2725791931152
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/senjata",
+        "id": "8804973967371468801",
+        "position": {
+          "x": -79.3916397094727,
+          "y": -5.06100654602051,
+          "z": 88.1831741333008
         }
       },
       {
         "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/musuh1",
-        "id": "8788320095348604929",
-        "name": "musuh1",
+        "config": "myplugin/Anak buah 1",
+        "id": "8806692363709628417",
+        "name": "Anak buah 1",
         "position": {
-          "x": -3.51690554618835,
-          "y": 3.68732643127441,
-          "z": 5.40053510665894
+          "x": -8.55620002746582,
+          "y": 1.9073486328125e-06,
+          "z": -7.50944805145264
+        },
+        "scale": {
+          "x": 2,
+          "y": 2,
+          "z": 2
+        },
+        "size": {
+          "x": 2,
+          "y": 2,
+          "z": 2
         }
       },
       {
         "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/musuh1",
-        "id": "8788329777506041857",
-        "name": "musuh1",
+        "config": "myplugin/Anak buah 1",
+        "id": "8806695052546605057",
+        "name": "Anak buah 1",
         "position": {
-          "x": -32.3604965209961,
-          "y": 2.97868347167969,
-          "z": -12.403374671936
+          "x": -16.3527336120605,
+          "y": -5.96046447753906e-08,
+          "z": 67.6012725830078
+        },
+        "scale": {
+          "x": 2,
+          "y": 2,
+          "z": 2
+        },
+        "size": {
+          "x": 2,
+          "y": 2,
+          "z": 2
         }
       },
       {
         "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/musuh1",
-        "id": "8788329810417336321",
-        "name": "musuh1",
+        "config": "myplugin/Anak buah 1",
+        "id": "8806695088033628161",
+        "name": "Anak buah 1",
         "position": {
-          "x": 45.3769950866699,
-          "y": 3.70886063575745,
-          "z": -12.7695283889771
+          "x": 26.7396125793457,
+          "y": -5.96046447753906e-08,
+          "z": 3.78093433380127
+        },
+        "scale": {
+          "x": 2,
+          "y": 2,
+          "z": 2
+        },
+        "size": {
+          "x": 2,
+          "y": 2,
+          "z": 2
         }
       }
     ],
     "name": {
       "value": "map_map001"
     },
-    "rotateSpeed": 1,
     "touch_pos": {
-      "down": 0,
       "up": 600
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "6eb70ad2d7746fbd49e4cf8946ae499d"
+      "setting.json": "9eaef5514903093f0de6c10677ad82dd"
     },
-    "VERSION": "0.23"
+    "VERSION": "0.24"
   }
 }

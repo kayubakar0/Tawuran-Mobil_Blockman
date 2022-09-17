@@ -1,0 +1,3 @@
+HIT_ENTITY {
+	Damage(damage = 50, entity = $obj1)
+}

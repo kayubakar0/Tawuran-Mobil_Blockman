@@ -1,0 +1,58 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g2047_monster_normal_3105.actor" Originalscale="1 1 1" Skeleton="asset/Actor/g2047_monster_normal_2106/g2047_monster_normal_2106.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="1">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="mutex_name0" SlaveName="group0" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "asset/Actor/g2047_monster_normal_2106/g2047_monster_normal_2106.skin" ChangeColor = "1.4013e-45 -0.487196 0.0893673 -0.567287" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="mutex_name_1" SlaveName="group1" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+			</BodyPart>
+			<BodyPart MasterName="mutex_name_2" SlaveName="group2" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "asset/Actor/g2047_monster_normal_2106/g2047_monster_normal_3105.skin" ChangeColor = "1.4013e-45 -0.487196 0.0893673 -0.567287" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="attack1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "asset/Actor/g2047_monster_normal_2106/g2047_monster_normal_2106_attack.anim" BeginTime = "0" Times = "1" Length = "1.2" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<ActorScaleChange  beginScale = "5" endScale = "5" >
+				</ActorScaleChange>
+			</Skill>
+			<Skill Name="die" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "asset/Actor/g2047_monster_normal_2106/g2047_monster_normal_2106_die.anim" BeginTime = "0" Times = "1" Length = "1.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<ActorScaleChange  beginScale = "5" endScale = "5" >
+				</ActorScaleChange>
+			</Skill>
+			<Skill Name="hurt" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "asset/Actor/g2047_monster_normal_2106/g2047_monster_normal_2106_hurt.anim" BeginTime = "0" Times = "1" Length = "0.566" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<ActorScaleChange  beginScale = "5" endScale = "5" >
+				</ActorScaleChange>
+			</Skill>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "asset/Actor/g2047_monster_normal_2106/g2047_monster_normal_2106_idle.anim" BeginTime = "0" Times = "-1" Length = "1.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<ActorScaleChange  beginScale = "5" endScale = "5" >
+				</ActorScaleChange>
+			</Skill>
+			<Skill Name="run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "asset/Actor/g2047_monster_normal_2106/g2047_monster_normal_2106_run.anim" BeginTime = "0" Times = "-1" Length = "0.5" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<ActorScaleChange  beginScale = "5" endScale = "5" >
+				</ActorScaleChange>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="asset/Actor/g2047_monster_normal_2106/g2047_monster_normal_2106_die.anim"/>
+				<Anim Name="asset/Actor/g2047_monster_normal_2106/g2047_monster_normal_2106_idle.anim"/>
+				<Anim Name="asset/Actor/g2047_monster_normal_2106/g2047_monster_normal_2106_attack.anim"/>
+				<Anim Name="asset/Actor/g2047_monster_normal_2106/g2047_monster_normal_2106_hurt.anim"/>
+				<Anim Name="asset/Actor/g2047_monster_normal_2106/g2047_monster_normal_2106_run.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

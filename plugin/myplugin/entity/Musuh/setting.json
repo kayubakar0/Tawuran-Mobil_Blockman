@@ -1,0 +1,112 @@
+{
+  "_clientScript": [],
+  "_serverScript": [],
+  "actorGirlName": "empty.actor",
+  "actorName": "asset/Actor/Orange-White Car/A Camouflage Car.actor",
+  "aiFixSpeedRate": 2,
+  "attackNpc": false,
+  "autoAttack": true,
+  "autoMove": false,
+  "autoRotateColliderBox": true,
+  "avoidCliff": true,
+  "avoidCliffHight": 5,
+  "boundingScaleWithSize": true,
+  "canClick": false,
+  "canHurtMove": true,
+  "canJump": false,
+  "canMove": true,
+  "canPickOnDie": false,
+  "canTurnHead": false,
+  "castRealShadowAtFirstPRV": false,
+  "chaseDistance": 15,
+  "chaseInterval": 10,
+  "checkPartTouchEvent": true,
+  "clickDistance": 4,
+  "collider": {
+    "extent": {
+      "x": 2.3614820539951,
+      "y": 1.8217049241066,
+      "z": 4.872741997242
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "type": "Box"
+  },
+  "collision": true,
+  "damage": 0,
+  "deathHideTime": 20,
+  "destroyTime": 0,
+  "disableShadow": true,
+  "disableShadowAtFirstPRV": true,
+  "dropDamageRatio": 0,
+  "dropDamageStart": 1.5,
+  "enableAI": true,
+  "equipTrays": [],
+  "eyeHeight": 1.62,
+  "followEntityDistanceWhenHasTarget": 10,
+  "followEntityDistanceWhenNotTarget": 5,
+  "gravity": 0.08,
+  "headPic": "",
+  "hideHolder": false,
+  "hideHp": 0,
+  "hideName": false,
+  "homeSize": 60,
+  "hpBarColor": 4294967551,
+  "hpBarHeight": 0.2,
+  "hpBarWidth": 1,
+  "hpFaceCamera": 0,
+  "hurtResistantTime": 0,
+  "idleProb": 0,
+  "idleTime": [
+    10,
+    30
+  ],
+  "isAIGoHomePos": true,
+  "isPlayer": false,
+  "jumpHeight": 0.6,
+  "jumpSpeed": 0.5,
+  "maxHp": 30,
+  "maxVisualAngle": 360,
+  "meetCliffBackRun": true,
+  "moveAcc": 0.2,
+  "moveFactor": 1,
+  "moveSpeed": 0.85,
+  "name": "entity_Musuh",
+  "needCheckTouch": true,
+  "nextChaseInterval": 2,
+  "patrolDistance": 100,
+  "randomPlayDeadActions": [
+    ""
+  ],
+  "reachDistance": 6.5,
+  "setFollowWhenCreate": true,
+  "skillInfoList": [
+    {
+      "__OBJ_TYPE": "AI_Skill",
+      "attackDis": 2,
+      "fullName": "myplugin/Tubruk skill",
+      "priority": 0
+    },
+    {
+      "__OBJ_TYPE": "AI_Skill",
+      "attackDis": 10,
+      "fullName": "myplugin/Tembakan missil",
+      "priority": 1
+    }
+  ],
+  "skillInfos": [],
+  "stepHeight": 0.6,
+  "textHeight": 2.3,
+  "touchdownTimeToDie": true,
+  "touchdownTimeToDieTick": 5,
+  "unassailable": 0,
+  "undamageable": 0
+}

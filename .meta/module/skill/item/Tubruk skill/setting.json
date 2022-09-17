@@ -1,0 +1,21 @@
+{
+  "data": {
+    "name": {
+      "value": "skill_Tubruk skill"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack",
+        "damage": 10,
+        "hurtDistance": 3
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "bf787654546e38b6be80b2ce43e40654",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,0 +1,16 @@
+ENTITY_DIE {
+	ShowTip(entity = $obj2, keepTime = 100, textKey = "83a4d7a3-9f18-4be9-bcc8-38b63c00595c", tipType = "1")
+	EnterMap(
+		entity = $obj2,
+		map = "map001",
+		pos = {
+			x = -86.4389877319336,
+			y = 0.04,
+			z = 20.7890205383301
+		},
+		rp = 0,
+		ry = 0
+	)
+	MoveMapPlayerTo(map = $map, newmap = "map001", pos = { x = -87.5299377441406, y = 0.04, z = 20.7086601257324 })
+	SetHeadText(entity = $obj2, headText = "0d7ccd8b-70c6-4034-b30c-9dbe67156d21", x = 0, y = 0)
+}

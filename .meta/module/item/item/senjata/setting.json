@@ -1,0 +1,22 @@
+{
+  "data": {
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemEquip",
+        "equip_skill": [
+          "myplugin/Tembakan missil"
+        ]
+      }
+    },
+    "name": {
+      "value": "item_senjata"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6977ca288564d3769f474cde2b077313",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

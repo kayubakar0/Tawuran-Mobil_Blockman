@@ -1,0 +1,26 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/White And Purple Technology Fountain/g2042_build_fountain.actor"
+    },
+    "canJump": false,
+    "canMove": false,
+    "collision": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_dekorasi tengah"
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "ead9e96200f271d0c958f6506fe85c0c",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,10 +1,12 @@
 {
   "data": {
+    "back_distance": 3,
+    "back_view_offset": {
+      "y": 2
+    },
+    "back_viewFovAngle": 90,
     "defaultView": "Back",
     "enableNewLighting": true,
-    "firstPerson_enable": {
-      "enable": false
-    },
     "fixed_viewPos": {
       "pos": {
         "__OBJ_TYPE": "Vector3i"
@@ -13,44 +15,37 @@
     "initPos": {
       "map": "map001",
       "pos": {
-        "x": 31.062,
-        "y": 3.548,
-        "z": 12.572
+        "x": -87.4314804077148,
+        "y": 0.0399980926513672,
+        "z": 19.8416614532471
       }
     },
+    "needSave": true,
     "nowTime": {
-      "h": 10,
+      "h": 16,
       "m": 40
     },
     "player_range": {
-      "max": 8,
+      "max": 6,
       "min": 1
     },
     "startPos": {
       "map": "map001",
       "pos": {
-        "x": 24.405,
-        "y": 3.59279159545898,
-        "z": 13.1131534576416
+        "x": -86.9005813598633,
+        "y": 0.0400019073486328,
+        "z": 20.1810779571533
       }
-    },
-    "team": {
-      "automatch": true
-    },
-    "ui_enable": {
-      "appMainRole": false,
-      "playerinfo": false,
-      "shortcutBar": false
     },
     "unlimitedPlayTime": true
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "100dc0c9f0dba96b5343c2bbec9724f6",
+      "setting.json": "a508411e52359d227390167cb6d5c19c",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "",
       "triggers_client.bts": ""
     },
-    "VERSION": "0.23"
+    "VERSION": "0.24"
   }
 }

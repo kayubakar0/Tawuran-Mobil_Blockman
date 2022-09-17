@@ -1,0 +1,22 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="stone01.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2030_island_long_2.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="1" MasterName="body">
+				<StaticMesh LocalAlpha="1">
+					<scale value="1.8"/>
+					<roll value="0"/>
+					<SocketName value="bip01"/>
+					<Position_Y value="-8.57523"/>
+					<yaw value="0"/>
+					<UseBloom value="false"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/g2030_island_long_2.mesh"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Anims/>
+		<Skills/>
+	</ActorTemplate>
+</ActorTemplates>

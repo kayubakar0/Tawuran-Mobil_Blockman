@@ -1,0 +1,152 @@
+{
+  "data": {
+    "boundingVolume": {
+      "height_c": 0.25761897861954,
+      "position": {
+        "y": 0.064016999676824,
+        "z": -0.12972702085972
+      },
+      "radius_c": 0.058475006371737,
+      "rotate": {
+        "x": 90
+      },
+      "type": "Capsule"
+    },
+    "boundingVolumeMissileCfg": {
+      "height_c": 0.257618978619543,
+      "memory": {
+        "Cylinder": "1.000000-0.500000",
+        "Sphere": "1.000000-0.500000"
+      },
+      "position": {
+        "y": 0.0640169996768236,
+        "z": -0.129727020859718
+      },
+      "radius_c": 0.0584750063717367,
+      "rotate": {
+        "x": 90
+      },
+      "type": "Capsule"
+    },
+    "hitCount": {
+      "hitEntityCount": 1,
+      "isValid": true
+    },
+    "hitEntityEffect": {
+      "effect": {
+        "asset": "asset/effect/Orange Cloud Explosion Effect/gp202_explodables_01_red_3d.effect"
+      }
+    },
+    "hitEntitySound": {
+      "sound": {
+        "asset": "asset/mixkit-bomb-explosion-in-battle-2800.mp3"
+      }
+    },
+    "lifeTime": {
+      "value": 200
+    },
+    "missileModel": {
+      "modelMesh": {
+        "asset": "asset/Mesh/Silver Short Shell/g2050_grenadier_bullet.mesh"
+      },
+      "modelSizeScale": {
+        "x": 5,
+        "y": 5,
+        "z": 5
+      },
+      "type": "mesh"
+    },
+    "moveAcc": 5,
+    "name": {
+      "value": "missile_missil2"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Damage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "bd957cd6-4429-4477-9ee0-8df92c16c55e"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 40
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "beb43ebc-aafc-4830-97bf-eacc685fca59"
+              },
+              "pos": {
+                "x": 742,
+                "y": 356
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "bd957cd6-4429-4477-9ee0-8df92c16c55e"
+              },
+              "pos": {
+                "x": 1107,
+                "y": 393
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "111e1a57-2cef-4207-adb0-01177f35f88f"
+            },
+            "type": "Trigger_MissileHitEntity"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "beb43ebc-aafc-4830-97bf-eacc685fca59"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "dc98109d-dacd-4af6-9e22-7b862529f1fb"
+            }
+          },
+          "type": "Trigger_MissileHitEntity"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a482344dde409b589167f0180d59e012",
+      "triggers.bts": "d073660a4cbe74c20079b4a6a67bde13"
+    },
+    "VERSION": "0.24"
+  }
+}

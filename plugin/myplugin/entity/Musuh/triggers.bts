@@ -1,0 +1,3 @@
+ENTITY_DIE {
+	AddEntityScore(add = 10, entity = $obj2)
+}

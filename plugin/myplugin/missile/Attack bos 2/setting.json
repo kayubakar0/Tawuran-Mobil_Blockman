@@ -1,0 +1,100 @@
+{
+  "autoRotateColliderBox": true,
+  "collideEntity": 6,
+  "collider": {
+    "extent": {
+      "x": 7.911138176918,
+      "y": 2.8847568146884,
+      "z": 2.9681510478258
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "type": "Box"
+  },
+  "followTarget": false,
+  "followTargetRotation": true,
+  "followTargetRotationOffset": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "gravity": 0,
+  "hitEntityEffect": {
+    "effect": "@asset/effect/Orange Cloud Explosion Effect/gp202_explodables_01_red_3d.effect",
+    "once": false,
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "yaw": 0
+  },
+  "hitEntitySound": {
+    "loop": false,
+    "multiPly": 1,
+    "path": "asset/mixkit-bomb-explosion-in-battle-2800.mp3",
+    "selfOnly": false,
+    "sound": "@mixkit-bomb-explosion-in-battle-2800.mp3",
+    "volume": 1
+  },
+  "hitEntitysRoles": [
+    "hitAllTeam",
+    "hitAllEntitys",
+    "hitAllConfigEntity"
+  ],
+  "hitInterval": 10,
+  "isPitch": true,
+  "lifeTime": 500,
+  "lockRotateBodyPitch": 0,
+  "lockRotateBodyRoll": 0,
+  "lockRotateBodyYaw": 0,
+  "modelMesh": "asset/Mesh/Purple Container With Graffiti/g2020_container_01.mesh",
+  "modelSizeScale": {
+    "x": 1,
+    "y": 1,
+    "z": 1
+  },
+  "moveAcc": 0.15,
+  "moveSpeed": 0.75,
+  "rotateFree": true,
+  "rotateSpeed": 0,
+  "startSound": {
+    "loop": false,
+    "multiPly": 1,
+    "path": "asset/mixkit-bomb-explosion-in-battle-2800.mp3",
+    "selfOnly": false,
+    "sound": "@mixkit-bomb-explosion-in-battle-2800.mp3",
+    "volume": 1
+  },
+  "startWithMoveAcc": true,
+  "vanishEffect": {
+    "effect": "@asset/effect/Light Pillar Explosion Effect/gfxy207_explosion_orange beam _3d.effect",
+    "once": false,
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "yaw": 0
+  },
+  "vanishShow": false,
+  "vanishTime": 10
+}

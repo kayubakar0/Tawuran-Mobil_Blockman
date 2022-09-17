@@ -1,0 +1,149 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Orange-White Car/A Camouflage Car.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "chaseDistance": 15,
+      "enable": true,
+      "skillList": [
+        {
+          "attackDis": 2,
+          "fullName": "myplugin/Tubruk skill"
+        },
+        {
+          "attackDis": 10,
+          "fullName": "myplugin/Tembakan missil",
+          "priority": 1
+        }
+      ]
+    },
+    "AI_home": {
+      "homeSize": 30
+    },
+    "AI_patrol": {
+      "patrolDistance": 100,
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "height": 1.021704994142,
+      "radius": 6.5342241227627,
+      "size": {
+        "x": 2.3614820539951,
+        "y": 1.8217049241066,
+        "z": 4.872741997242
+      }
+    },
+    "boundingVolumeEntityCfg": {
+      "height": 1.02170499414205,
+      "memory": {
+        "Cylinder": "1.000000-0.500000"
+      },
+      "radius": 6.53422412276268,
+      "size": {
+        "x": 2.36148205399513,
+        "y": 1.8217049241066,
+        "z": 4.87274199724197
+      }
+    },
+    "canJump": false,
+    "collision": true,
+    "enableAI": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "hideHp": false,
+    "maxHp": 30,
+    "moveSpeed": 17,
+    "name": {
+      "value": "entity_Musuh"
+    },
+    "reviveTime": {
+      "value": 100
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddEntityScore",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "66181a65-57ed-4c28-aa6a-91e6aa2fee5f"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 10
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "775aded6-aa33-44fd-8d0e-25e25b50ea06"
+              },
+              "pos": {
+                "x": 809,
+                "y": 323
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "66181a65-57ed-4c28-aa6a-91e6aa2fee5f"
+              },
+              "pos": {
+                "x": 1162,
+                "y": 214
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "c1c5dd76-6b69-49f1-b56a-fcff27a3f5ab"
+            },
+            "type": "Trigger_EntityDie"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "775aded6-aa33-44fd-8d0e-25e25b50ea06"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "8b3826e3-cfcb-4df9-920f-c4090ce03133"
+            }
+          },
+          "type": "Trigger_EntityDie"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "d73ec29712e8e56cee3d900b3990a3c3",
+      "triggers.bts": "e1242accc66122fe837b8124af3a49c6"
+    },
+    "VERSION": "0.24"
+  }
+}

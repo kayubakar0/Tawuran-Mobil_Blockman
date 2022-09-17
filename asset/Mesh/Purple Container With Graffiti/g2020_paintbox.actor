@@ -1,0 +1,39 @@
+<ActorTemplates>
+	<ActorTemplate SoundName5="" SelectedRingSize="1" name="111.actor" Alpha="1" MaxDistance="16" Originalscale="1 1 1" MinDistance="1" AttackScale="1" Volume="0.8" WoundBone="" WoundAngle="25" Skeleton="bone001.skel" IntervalTime="2" TextHeight="0" SoundName1="" SoundName2="" SoundName3="" SoundName4="" IsShowShadow="true" SoundFileNum="0">
+		<Anims>
+			<Anim Name="bone001.anim"/>
+		</Anims>
+		<Skills>
+			<Skill EnableWound="false" TextMode="0" Name="idle" UserDefineTime="-2">
+				<Animation FadeTime="0.25" Length="3.366" TimeScale="1" BeginTime="0" Channel="" Name="bone001.anim" Times="1"/>
+			</Skill>
+		</Skills>
+		<BodyParts>
+			<BodyPart SlaveName="1" MasterName="body" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh DiscardAlpha="0" type_name="g2020_container_01" LocalAlpha="1">
+					<SpecularCoef value="0.15"/>
+					<UseOriginalcolor value="false"/>
+					<UseBloom value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<Position_X value="0"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<FileName value="g2020_container_01.mesh"/>
+					<pitch value="0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<SocketName value="bone001"/>
+					<UseEdge value="false"/>
+					<Position_Z value="0"/>
+					<LocalBrightnessScale value="1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<UseReflect value="false"/>
+					<Position_Y value="0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<SpecularStrength value="1.0"/>
+					<scale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

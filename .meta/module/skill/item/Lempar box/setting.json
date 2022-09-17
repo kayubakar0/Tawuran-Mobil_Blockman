@@ -1,0 +1,44 @@
+{
+  "data": {
+    "castSound": {
+      "sound": {
+        "asset": "asset/mixkit-falling-hit-757.mp3"
+      }
+    },
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 200
+    },
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_Lempar box"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "bodyPitchOffset": 270,
+            "missileCfg": "myplugin/Attack bos 2",
+            "startPos": {
+              "y": 2
+            }
+          }
+        ],
+        "target": {
+          "type": "FrontSight"
+        }
+      },
+      "type": "Missile"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1de6c9a3c011f837c64ec094614d56e6",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

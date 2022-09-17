@@ -1,0 +1,5 @@
+REGION_ENTER {
+	WhileBranch(condition = $obj1) {
+		AddEntityHp(entity = $obj1, step = 4)
+	}
+}

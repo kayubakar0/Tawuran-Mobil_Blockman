@@ -1,0 +1,188 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="g2020_car_02.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2020_car02.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="1" MasterName="body">
+				<Effect>
+					<scale value="2"/>
+					<roll value="0"/>
+					<SocketName value="bone001"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2007_icesword.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="bone001"/>
+					<Position_Y value="0.7"/>
+					<yaw value="0"/>
+					<Position_Z value="1.5"/>
+					<pitch value="0"/>
+					<Position_X value="0.8"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2007_icesword.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="bone001"/>
+					<Position_Y value="0.7"/>
+					<yaw value="0"/>
+					<Position_Z value="1.5"/>
+					<pitch value="0"/>
+					<Position_X value="-0.8"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2007_icesword.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="bone001"/>
+					<Position_Y value="0.7"/>
+					<yaw value="0"/>
+					<Position_Z value="-1.5"/>
+					<pitch value="0"/>
+					<Position_X value="0.8"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2007_icesword.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="bone001"/>
+					<Position_Y value="0.7"/>
+					<yaw value="0"/>
+					<Position_Z value="-1.5"/>
+					<pitch value="0"/>
+					<Position_X value="-0.8"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2007_icesword.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha="0.5">
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="Bone001"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<UseBloom value="false"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/g2020_car_02_01.mesh"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha="1">
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="Bone001"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<UseBloom value="true"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/g2020_car_02_light.mesh"/>
+				</StaticMesh>
+				<Skin ChangeColor="2.10195e-44 3.76389e-42 7.20161e+22 0" UseBloom="false" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g2020_car_02.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/g2020_car02.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="back" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2020_car02.anim" Channel="" TimeScale="1" Length="1.033" Times="-1"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2020_car02.anim" Channel="" TimeScale="1" Length="1.033" Times="-1"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="-2.6363"/>
+					<Times value="-1"/>
+					<FileName value="asset/Effect/Life/longxi.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="0.3"/>
+					<roll value="0"/>
+					<yaw value="180"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="1.60104"/>
+					<pitch value="0"/>
+					<BeginTime value="0"/>
+					<SocketName value="BuSuiFu"/>
+					<Position_X value="0.640028"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="-2.6363"/>
+					<Times value="-1"/>
+					<FileName value="asset/Effect/Life/longxi.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="0.3"/>
+					<roll value="0"/>
+					<yaw value="180"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="1.60104"/>
+					<pitch value="0"/>
+					<BeginTime value="0"/>
+					<SocketName value="BuSuiFu"/>
+					<Position_X value="-0.585714"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="-2.6363"/>
+					<Times value="-1"/>
+					<FileName value="asset/Effect/Life/longxi.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="0.4"/>
+					<roll value="0"/>
+					<yaw value="180"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="1.60104"/>
+					<pitch value="0"/>
+					<BeginTime value="0.9"/>
+					<SocketName value="BuSuiFu"/>
+					<Position_X value="0.640028"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="-2.6363"/>
+					<Times value="-1"/>
+					<FileName value="asset/Effect/Life/longxi.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="0.4"/>
+					<roll value="0"/>
+					<yaw value="180"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="1.60104"/>
+					<pitch value="0"/>
+					<BeginTime value="0.9"/>
+					<SocketName value="BuSuiFu"/>
+					<Position_X value="-0.585714"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2020_car02.anim" Channel="" TimeScale="1" Length="1.033" Times="-1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

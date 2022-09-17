@@ -1,0 +1,75 @@
+{
+  "autoRotateColliderBox": true,
+  "collideEntity": 6,
+  "collider": {
+    "height": 0.25761897861954,
+    "offset": {
+      "x": 0,
+      "y": 0.064016999676824,
+      "z": -0.12972702085972
+    },
+    "radius": 0.058475006371737,
+    "rotation": {
+      "x": 90,
+      "y": 0,
+      "z": 0
+    },
+    "type": "Capsule"
+  },
+  "followTarget": false,
+  "followTargetRotation": true,
+  "followTargetRotationOffset": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "gravity": 0,
+  "hitEntityCount": 1,
+  "hitEntityEffect": {
+    "effect": "@asset/effect/Orange Cloud Explosion Effect/gp202_explodables_01_red_3d.effect",
+    "once": false,
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "yaw": 0
+  },
+  "hitEntitySound": {
+    "loop": false,
+    "multiPly": 1,
+    "path": "asset/mixkit-bomb-explosion-in-battle-2800.mp3",
+    "selfOnly": false,
+    "sound": "@mixkit-bomb-explosion-in-battle-2800.mp3",
+    "volume": 1
+  },
+  "hitEntitysRoles": [
+    "hitAllTeam",
+    "hitAllEntitys",
+    "hitAllConfigEntity"
+  ],
+  "hitInterval": 10,
+  "isPitch": true,
+  "lifeTime": 200,
+  "lockRotateBodyPitch": 0,
+  "lockRotateBodyRoll": 0,
+  "lockRotateBodyYaw": 0,
+  "modelMesh": "asset/Mesh/Silver Short Shell/g2050_grenadier_bullet.mesh",
+  "modelSizeScale": {
+    "x": 5,
+    "y": 5,
+    "z": 5
+  },
+  "moveAcc": 0.25,
+  "moveSpeed": 2,
+  "rotateFree": true,
+  "rotateSpeed": 0,
+  "startWithMoveAcc": true,
+  "vanishShow": false,
+  "vanishTime": 10
+}

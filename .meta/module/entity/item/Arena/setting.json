@@ -1,0 +1,42 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Mesh/White Double Sliding Door/g2035_building_policehouse_door.actor"
+    },
+    "boundingVolume": {
+      "height": 1.7413150072098,
+      "radius": 3.2982360124588,
+      "size": {
+        "x": 3.398235976696,
+        "y": 2.5413149595261
+      }
+    },
+    "boundingVolumeEntityCfg": {
+      "height": 1.74131500720978,
+      "radius": 3.29823601245879,
+      "size": {
+        "x": 3.39823597669601,
+        "y": 2.54131495952606
+      }
+    },
+    "canJump": false,
+    "canMove": false,
+    "collision": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "gravity": 0,
+    "name": {
+      "value": "entity_Arena"
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "fa19954598cb9bf97c50bafac6b576b9",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

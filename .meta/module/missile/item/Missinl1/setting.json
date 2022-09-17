@@ -1,0 +1,148 @@
+{
+  "data": {
+    "boundingVolume": {
+      "height_c": 0.31899701058865,
+      "position": {
+        "y": 0.058727999217808,
+        "z": -0.17323396913707
+      },
+      "radius_c": 0.061249006539584,
+      "rotate": {
+        "x": 90
+      },
+      "type": "Capsule"
+    },
+    "boundingVolumeMissileCfg": {
+      "height_c": 0.318997010588646,
+      "position": {
+        "y": 0.0587279992178082,
+        "z": -0.173233969137073
+      },
+      "radius_c": 0.0612490065395837,
+      "rotate": {
+        "x": 90
+      },
+      "type": "Capsule"
+    },
+    "hitCount": {
+      "hitEntityCount": 1,
+      "isValid": true
+    },
+    "hitEntityEffect": {
+      "effect": {
+        "asset": "asset/effect/Orange Cloud Explosion Effect/gp202_explodables_01_red_3d.effect"
+      }
+    },
+    "hitEntitySound": {
+      "sound": {
+        "asset": "asset/mixkit-bomb-explosion-in-battle-2800.mp3"
+      }
+    },
+    "lifeTime": {
+      "value": 200
+    },
+    "missileModel": {
+      "modelMesh": {
+        "asset": "asset/Mesh/Silver Shell/g2050_cannon_bullet.mesh"
+      },
+      "modelSizeScale": {
+        "x": 5,
+        "y": 5,
+        "z": 5
+      },
+      "type": "mesh"
+    },
+    "moveAcc": 4,
+    "name": {
+      "value": "missile_Missinl1"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Damage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "a438b2f4-f586-4639-a51b-8c3c98129b8c"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 10
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "72bbea3f-c50f-4b33-ad21-8a58490a5891"
+              },
+              "pos": {
+                "x": 822,
+                "y": 299
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "a438b2f4-f586-4639-a51b-8c3c98129b8c"
+              },
+              "pos": {
+                "x": 1208,
+                "y": 326
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "4e92ae83-3afd-4e63-9743-c742f533bfa2"
+            },
+            "type": "Trigger_MissileHitEntity"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "72bbea3f-c50f-4b33-ad21-8a58490a5891"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "78eb6db7-3193-47a9-8f79-ba7be876d7dd"
+            }
+          },
+          "type": "Trigger_MissileHitEntity"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c143ef0c061cede01ac0c8caec4920cb",
+      "triggers.bts": "05d1858d4dd89fa49f11adc0b1a1d2db"
+    },
+    "VERSION": "0.24"
+  }
+}

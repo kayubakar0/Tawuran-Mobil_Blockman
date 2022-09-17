@@ -1,0 +1,124 @@
+{
+  "_clientScript": [],
+  "_serverScript": [],
+  "actorGirlName": "empty.actor",
+  "actorName": "asset/Actor/Pink Mechanical Monster/g2047_monster_normal_1107.actor",
+  "aiFixSpeedRate": 2,
+  "attackNpc": false,
+  "autoAttack": true,
+  "autoMove": false,
+  "autoRotateColliderBox": true,
+  "avoidCliff": true,
+  "avoidCliffHight": 5,
+  "boundingScaleWithSize": true,
+  "canClick": false,
+  "canHurtMove": true,
+  "canJump": true,
+  "canMove": true,
+  "canPickOnDie": false,
+  "canTurnHead": false,
+  "castRealShadowAtFirstPRV": false,
+  "chaseDistance": 200,
+  "chaseInterval": 10,
+  "checkPartTouchEvent": true,
+  "clickDistance": 4,
+  "collider": {
+    "extent": {
+      "x": 1.0700409412384,
+      "y": 1.7062179520726,
+      "z": 0.6
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "type": "Box"
+  },
+  "collision": false,
+  "damage": 0,
+  "deathHideTime": 20,
+  "destroyTime": 0,
+  "disableShadow": true,
+  "disableShadowAtFirstPRV": true,
+  "dropDamageRatio": 0,
+  "dropDamageStart": 1.5,
+  "enableAI": true,
+  "equipTrays": [],
+  "eyeHeight": 1.62,
+  "followEntityDistanceWhenHasTarget": 10,
+  "followEntityDistanceWhenNotTarget": 5,
+  "gravity": 0.08,
+  "headPic": "",
+  "hideHolder": false,
+  "hideHp": 0,
+  "hideName": false,
+  "homeSize": 400,
+  "hpBarColor": 4294967551,
+  "hpBarHeight": 0.2,
+  "hpBarWidth": 1,
+  "hpFaceCamera": 0,
+  "hurtResistantTime": 0,
+  "idleProb": 0,
+  "idleTime": [
+    10,
+    30
+  ],
+  "isAIGoHomePos": false,
+  "isPlayer": false,
+  "jumpHeight": 0.6,
+  "jumpSpeed": 0.5,
+  "maxHp": 200,
+  "maxVisualAngle": 360,
+  "meetCliffBackRun": true,
+  "moveAcc": 0.2,
+  "moveFactor": 1,
+  "moveSpeed": 0.25,
+  "name": "entity_Musuh 2",
+  "needCheckTouch": true,
+  "nextChaseInterval": 2,
+  "patrolDistance": 20,
+  "randomPlayDeadActions": [
+    ""
+  ],
+  "reachDistance": 6.5,
+  "setFollowWhenCreate": true,
+  "skillInfoList": [
+    {
+      "__OBJ_TYPE": "AI_Skill",
+      "attackDis": 2,
+      "fullName": "myplugin/Tubruk skill",
+      "priority": 1
+    },
+    {
+      "__OBJ_TYPE": "AI_Skill",
+      "attackDis": 30,
+      "fullName": "myplugin/Tembakan missil 2",
+      "priority": 0
+    },
+    {
+      "__OBJ_TYPE": "AI_Skill",
+      "attackDis": 50,
+      "fullName": "myplugin/Attack bos mobil",
+      "priority": 2
+    },
+    {
+      "__OBJ_TYPE": "AI_Skill",
+      "attackDis": 100,
+      "fullName": "myplugin/Lempar box",
+      "priority": 0
+    }
+  ],
+  "skillInfos": [],
+  "stepHeight": 0.6,
+  "textHeight": 2.3,
+  "touchdownTimeToDie": true,
+  "touchdownTimeToDieTick": 5,
+  "unassailable": 0,
+  "undamageable": 0
+}

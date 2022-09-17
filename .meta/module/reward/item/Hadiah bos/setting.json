@@ -1,0 +1,21 @@
+{
+  "data": {
+    "name": {
+      "value": "reward_Hadiah bos"
+    },
+    "rewardArray": [
+      {
+        "base": {
+          "__OBJ_TYPE": "RewardCoin"
+        },
+        "type": "Coin"
+      }
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c67f2128d4b928cf636d31f620dbe3e4"
+    },
+    "VERSION": "0.24"
+  }
+}

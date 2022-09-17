@@ -1,0 +1,23 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "equip_skill": [
+    "myplugin/Tembakan missil"
+  ],
+  "equip_skin": {
+    "": ""
+  },
+  "icon": "",
+  "itemname": "item_senjata",
+  "needSave": false,
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false,
+  "tray": []
+}

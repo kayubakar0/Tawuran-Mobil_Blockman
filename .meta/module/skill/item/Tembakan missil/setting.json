@@ -1,0 +1,84 @@
+{
+  "data": {
+    "castSound": {
+      "sound": {
+        "asset": "asset/mixkit-falling-hit-757.mp3"
+      }
+    },
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 40
+    },
+    "enableCdMask": true,
+    "enableCdTip": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_Tembakan missil"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "bodyPitchOffset": 270,
+            "missileCfg": "myplugin/Missinl1",
+            "startPos": {
+              "y": 1
+            }
+          }
+        ],
+        "target": {
+          "type": "BodyYaw"
+        }
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon__act.png"
+      },
+      "icon_pushed": {
+        "asset": "asset/Texture/Skill/common/icon__nor.png"
+      },
+      "iconPos": {
+        "area_number": 7
+      },
+      "isClick": true,
+      "isClickIcon": true
+    },
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "91abd47f-bfeb-4c7a-b240-6c2d4a2aee61"
+            },
+            "type": "Trigger_SkillCast"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "a4bccac1-8a70-43ef-b99e-d2fdf260a703"
+            }
+          },
+          "type": "Trigger_SkillCast"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "aaf38ae8532c5bac3cdfc483a5d62196",
+      "triggers.bts": "5a566fc7c963bf1119b53b2fee3dc77b"
+    },
+    "VERSION": "0.24"
+  }
+}

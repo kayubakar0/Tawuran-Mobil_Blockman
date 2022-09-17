@@ -2,55 +2,144 @@
   "data": {
     "actorModel": {
       "actorName": {
-        "asset": "asset/Actor/Orange-White Car/A Camouflage Car.actor"
+        "asset": "asset/Actor/Blue-White Jet Car/Super Cool Sports Car.actor"
       },
       "girlactor": {
-        "asset": ""
+        "asset": "asset/Actor/Blue-White Jet Car/Super Cool Sports Car.actor"
       },
       "modelType": "Customize"
     },
     "AI_attack": {
       "enable": true
     },
-    "AI_home": {
-      "homeSize": 5
-    },
     "AI_patrol": {
       "patrolMode": "randomPath"
     },
     "boundingVolume": {
-      "height": 1.5,
+      "height": 1.7,
+      "height_c": 1.7,
+      "radius": 0.43,
+      "radius_c": 0.43,
+      "type": "Capsule"
+    },
+    "boundingVolumeEntityCfg": {
+      "height": 1.7,
+      "height_c": 1.7,
+      "radius": 0.43,
+      "radius_c": 0.43,
       "type": "Capsule"
     },
     "canJump": false,
     "canRevive": true,
-    "damage": 10,
+    "collision": true,
+    "damage": 15,
     "deadAction": {
       "deathHideTime": {
         "value": 60
       },
       "playDeadAction": "die_front"
     },
-    "equip": [
-      "1",
-      "2"
-    ],
+    "hideHp": false,
     "isPlayer": true,
-    "jumpSpeed": 12,
     "maxHp": 100,
-    "moveSpeed": 10,
+    "moveSpeed": 17,
     "name": {
       "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
     },
+    "reviveTime": {
+      "value": 40
+    },
     "skill": [
-      "myplugin/tabrak"
-    ]
+      "myplugin/Tembakan missil",
+      "myplugin/Tembakan missil 2"
+    ],
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Damage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "0fc67a90-1611-415f-b71b-a6dce9788a4d"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 15
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "a4bf869e-8c58-4568-a547-e4941483745e"
+              },
+              "pos": {
+                "x": 851,
+                "y": 334
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "0fc67a90-1611-415f-b71b-a6dce9788a4d"
+              },
+              "pos": {
+                "x": 1231,
+                "y": 191
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "de9baa83-9cda-4674-893d-0b9bfd106f02"
+            },
+            "type": "Trigger_ENTITY_TOUCH_ALL"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "a4bf869e-8c58-4568-a547-e4941483745e"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "a4bdedd1-d754-4095-bfcf-0d3efd6e6556"
+            }
+          },
+          "type": "Trigger_ENTITY_TOUCH_ALL"
+        }
+      ]
+    }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "665bcb0176355f9dd44b955a6f4c6d73",
-      "triggers.bts": ""
+      "setting.json": "05bc3254074f7df94833b6540edf4da2",
+      "triggers.bts": "7a674c2bbb3abd1170ccae579a9837ab"
     },
-    "VERSION": "0.23"
+    "VERSION": "0.24"
   }
 }

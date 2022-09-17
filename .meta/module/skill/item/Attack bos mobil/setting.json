@@ -1,0 +1,44 @@
+{
+  "data": {
+    "castSound": {
+      "sound": {
+        "asset": "asset/mixkit-falling-hit-757.mp3"
+      }
+    },
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 300
+    },
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_Attack bos mobil"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "bodyPitchOffset": 270,
+            "missileCfg": "myplugin/Attack bos",
+            "startPos": {
+              "y": 2
+            }
+          }
+        ],
+        "target": {
+          "type": "FrontSight"
+        }
+      },
+      "type": "Missile"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "badbf49e9031899587e2e6e4cb2b1148",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

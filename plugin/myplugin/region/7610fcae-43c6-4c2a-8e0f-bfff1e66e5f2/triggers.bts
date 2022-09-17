@@ -1,0 +1,13 @@
+REGION_ENTER {
+	EnterMap(
+		entity = $obj1,
+		map = "Map 002",
+		pos = {
+			x = -86.6809539794922,
+			y = 0.04,
+			z = 20.8169479370117
+		},
+		rp = 0,
+		ry = 0
+	)
+}

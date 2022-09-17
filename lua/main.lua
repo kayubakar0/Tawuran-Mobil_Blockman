@@ -1,4 +1,4 @@
-if World.isClient then
+if World.IsClient then
 require "script_client.main"
 else
 require "script_server.main"

@@ -1,0 +1,106 @@
+{
+  "area": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "area_number": 0,
+  "backSwingTime": 0,
+  "bodyPitchOffset": [
+    270
+  ],
+  "bodyYawOffset": [
+    0
+  ],
+  "castAction": "",
+  "castActionTime": -1,
+  "castSound": {
+    "loop": false,
+    "multiPly": 1,
+    "path": "asset/mixkit-falling-hit-757.mp3",
+    "selfOnly": false,
+    "sound": "@mixkit-falling-hit-757.mp3",
+    "volume": 1
+  },
+  "cdMaskConfig": {
+    "AntiClockwise": false,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "horizontalAlignment": 1,
+    "verticalAlignment": 1
+  },
+  "cdTime": 200,
+  "chargeCdMaskConfig": {
+    "AntiClockwise": false,
+    "FillPosition": "",
+    "FillType": "Horizontal",
+    "horizontalAlignment": 1,
+    "verticalAlignment": 1
+  },
+  "chargeCdTime": 0,
+  "chargeEnableCdMask": false,
+  "chargeIsShowCdPoint": false,
+  "chargeTimes": 2,
+  "consumeVp": 0,
+  "customizeSkill": true,
+  "draggingEnabled": false,
+  "enable_pre": false,
+  "enable_rear": false,
+  "enableCdMask": true,
+  "enableCdTip": false,
+  "enableChargeTime": false,
+  "enableMoveBrkBackS": false,
+  "enableMoveBrkPreS": false,
+  "frontSight": "",
+  "horizontalAlignment": 1,
+  "ignoreCastSkillBackS": false,
+  "ignoreCastSkillPreS": true,
+  "ignoreJumpBackS": false,
+  "ignoreJumpPreS": false,
+  "ignoreMoveBackS": false,
+  "ignoreMovePreS": false,
+  "isClick": false,
+  "isShowCdPoint": false,
+  "isTouch": false,
+  "missileCfg": [
+    "myplugin/Attack bos 2"
+  ],
+  "missileCount": 1,
+  "preSwingTime": 0,
+  "sensitivityFactor": 1,
+  "startAction": "",
+  "startActionTime": 0,
+  "startFrom": "foot",
+  "startPitch": [
+    0
+  ],
+  "startPos": [
+    {
+      "x": 0,
+      "y": 2,
+      "z": 0
+    }
+  ],
+  "startWait": [
+    0
+  ],
+  "startYaw": [
+    0
+  ],
+  "sustainAction": "",
+  "targetType": "FrontSight",
+  "type": "Missile"
+}

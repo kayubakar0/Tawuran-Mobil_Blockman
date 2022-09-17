@@ -1,0 +1,42 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/White And Red Mechanical Spider/g2047_monster_normal_3105.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "chaseDistance": 100,
+      "enable": true,
+      "skillList": [
+        {
+          "attackDis": 100,
+          "fullName": "myplugin/Tembakan missil"
+        }
+      ]
+    },
+    "AI_home": {
+      "homeSize": 100
+    },
+    "AI_patrol": {
+      "patrolDistance": 60,
+      "patrolMode": "randomPath"
+    },
+    "collision": true,
+    "enableAI": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "hideHp": false,
+    "moveSpeed": 10,
+    "name": {
+      "value": "entity_Anak buah 1"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "f47da3ede826f9c544e22ac7d110e5c1",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

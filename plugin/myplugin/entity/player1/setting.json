@@ -1,8 +1,8 @@
 {
   "_clientScript": [],
   "_serverScript": [],
-  "actorGirlName": "empty.actor",
-  "actorName": "asset/Actor/Orange-White Car/A Camouflage Car.actor",
+  "actorGirlName": "asset/Actor/Blue-White Jet Car/Super Cool Sports Car.actor",
+  "actorName": "asset/Actor/Blue-White Jet Car/Super Cool Sports Car.actor",
   "aiFixSpeedRate": 2,
   "attackNpc": false,
   "autoAttack": false,
@@ -31,13 +31,13 @@
   "checkPartTouchEvent": true,
   "clickDistance": 4,
   "collider": {
-    "height": 1.5,
+    "height": 1.7,
     "offset": {
       "x": 0,
       "y": 0,
       "z": 0
     },
-    "radius": 0.5,
+    "radius": 0.43,
     "rotation": {
       "x": 0,
       "y": 0,
@@ -45,8 +45,8 @@
     },
     "type": "Capsule"
   },
-  "collision": false,
-  "damage": 10,
+  "collision": true,
+  "damage": 15,
   "damageViewBobbing": [
     {
       "count": 2,
@@ -73,10 +73,7 @@
   "dropDamageStart": 1.5,
   "enableAI": false,
   "enableBackMovementAction": true,
-  "equipTrays": [
-    1,
-    2
-  ],
+  "equipTrays": [],
   "eyeHeight": 1.62,
   "fallAtSwimming": false,
   "firstPRVActorName": "asset/Actor/charactor/firstPrvActor/firstPrvActor.actor",
@@ -87,9 +84,9 @@
   "gravity": 0.08,
   "headPic": "",
   "hideHolder": false,
-  "hideHp": 1,
+  "hideHp": 0,
   "hideName": false,
-  "homeSize": 10,
+  "homeSize": 20,
   "hpBarColor": 4294967551,
   "hpBarHeight": 0.2,
   "hpBarWidth": 1,
@@ -104,14 +101,14 @@
   "isAIGoHomePos": true,
   "isPlayer": true,
   "jumpHeight": 0.6,
-  "jumpSpeed": 0.6,
+  "jumpSpeed": 0.5,
   "maxHp": 100,
   "maxVisualAngle": 360,
   "meetCliffBackRun": true,
   "modelType": "Customize",
   "moveAcc": 0.2,
   "moveFactor": 1,
-  "moveSpeed": 0.5,
+  "moveSpeed": 0.85,
   "name": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d",
   "needCheckTouch": true,
   "patrolDistance": 5,
@@ -120,10 +117,11 @@
     "die_front"
   ],
   "reachDistance": 6.5,
-  "reviveTime": 0,
+  "reviveTime": 40,
   "setFollowWhenCreate": true,
   "skillInfos": [
-    "myplugin/tabrak"
+    "myplugin/Tembakan missil",
+    "myplugin/Tembakan missil 2"
   ],
   "stepHeight": 0.6,
   "textHeight": 2.3,
